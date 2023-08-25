@@ -1,0 +1,522 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C?
+U 1 1 64EB19DF
+P 1275 1250
+AR Path="/63E0266A/64EB19DF" Ref="C?"  Part="1" 
+AR Path="/64EB19DF" Ref="C?"  Part="1" 
+AR Path="/64EAC854/64EB19DF" Ref="C1"  Part="1" 
+F 0 "C1" H 1390 1296 50  0000 L CNN
+F 1 "27p" H 1390 1205 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1313 1100 50  0001 C CNN
+F 3 "~" H 1275 1250 50  0001 C CNN
+	1    1275 1250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64EB19E5
+P 1275 1650
+AR Path="/63E0266A/64EB19E5" Ref="C?"  Part="1" 
+AR Path="/64EB19E5" Ref="C?"  Part="1" 
+AR Path="/64EAC854/64EB19E5" Ref="C2"  Part="1" 
+F 0 "C2" H 1390 1696 50  0000 L CNN
+F 1 "27p" H 1390 1605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 1313 1500 50  0001 C CNN
+F 3 "~" H 1275 1650 50  0001 C CNN
+	1    1275 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64EB19EB
+P 1025 1750
+AR Path="/63E0266A/64EB19EB" Ref="#PWR?"  Part="1" 
+AR Path="/64EB19EB" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EB19EB" Ref="#PWR0104"  Part="1" 
+F 0 "#PWR0104" H 1025 1500 50  0001 C CNN
+F 1 "GND" H 1030 1577 50  0000 C CNN
+F 2 "" H 1025 1750 50  0001 C CNN
+F 3 "" H 1025 1750 50  0001 C CNN
+	1    1025 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1125 1250 1025 1250
+Wire Wire Line
+	1025 1250 1025 1650
+Wire Wire Line
+	1125 1650 1025 1650
+Connection ~ 1025 1650
+Wire Wire Line
+	1025 1650 1025 1750
+Wire Wire Line
+	1425 1650 1875 1650
+Wire Wire Line
+	1425 1250 1875 1250
+Wire Wire Line
+	1875 1300 1875 1250
+Wire Wire Line
+	1875 1600 1875 1650
+Connection ~ 1875 1650
+Wire Wire Line
+	1875 1650 2425 1650
+$Comp
+L Device:R R?
+U 1 1 64EB19FC
+P 2575 1650
+AR Path="/63E0266A/64EB19FC" Ref="R?"  Part="1" 
+AR Path="/64EB19FC" Ref="R?"  Part="1" 
+AR Path="/64EAC854/64EB19FC" Ref="R1"  Part="1" 
+F 0 "R1" V 2368 1650 50  0000 C CNN
+F 1 "1k" V 2459 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 2505 1650 50  0001 C CNN
+F 3 "~" H 2575 1650 50  0001 C CNN
+	1    2575 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal Y?
+U 1 1 64EB1A02
+P 1875 1450
+AR Path="/63E0266A/64EB1A02" Ref="Y?"  Part="1" 
+AR Path="/64EB1A02" Ref="Y?"  Part="1" 
+AR Path="/64EAC854/64EB1A02" Ref="Y1"  Part="1" 
+F 0 "Y1" V 1829 1581 50  0000 L CNN
+F 1 "ABLS-12.000MHZ-B4-T" V 1575 1200 50  0000 L CNN
+F 2 "ajm_kicad:ecx-32" H 1875 1450 50  0001 C CNN
+F 3 "~" H 1875 1450 50  0001 C CNN
+	1    1875 1450
+	0    1    1    0   
+$EndComp
+Text Notes 1550 925  0    100  ~ 0
+Crystal
+$Comp
+L Connector:USB_B_Micro J?
+U 1 1 64EB5E42
+P 1150 2850
+AR Path="/64EB5E42" Ref="J?"  Part="1" 
+AR Path="/64EAC854/64EB5E42" Ref="J1"  Part="1" 
+F 0 "J1" H 1207 3317 50  0000 C CNN
+F 1 "USB_B_Micro" H 1207 3226 50  0000 C CNN
+F 2 "Connector_USB:USB_Micro-B_GCT_USB3076-30-A" H 1300 2800 50  0001 C CNN
+F 3 "~" H 1300 2800 50  0001 C CNN
+	1    1150 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 2075 2850 2    50   Input ~ 0
+USB_DP
+Text GLabel 2075 2950 2    50   Input ~ 0
+USB_DM
+Wire Wire Line
+	4525 1550 4525 1650
+$Comp
+L power:+3V3 #PWR?
+U 1 1 64EBD5F3
+P 4525 1550
+AR Path="/63E6E16A/64EBD5F3" Ref="#PWR?"  Part="1" 
+AR Path="/64EBD5F3" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EBD5F3" Ref="#PWR0105"  Part="1" 
+F 0 "#PWR0105" H 4525 1400 50  0001 C CNN
+F 1 "+3V3" H 4540 1723 50  0000 C CNN
+F 2 "" H 4525 1550 50  0001 C CNN
+F 3 "" H 4525 1550 50  0001 C CNN
+	1    4525 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 64EBD5F9
+P 4525 1750
+AR Path="/64EBD5F9" Ref="R?"  Part="1" 
+AR Path="/64EAC854/64EBD5F9" Ref="R2"  Part="1" 
+F 0 "R2" H 4584 1796 50  0000 L CNN
+F 1 "10k" H 4584 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4525 1750 50  0001 C CNN
+F 3 "~" H 4525 1750 50  0001 C CNN
+	1    4525 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 1975 5075 1975
+Wire Wire Line
+	5575 1025 5575 1675
+Wire Wire Line
+	6075 1975 6725 1975
+Wire Wire Line
+	6075 1875 6725 1875
+Wire Wire Line
+	6075 2175 6725 2175
+Wire Wire Line
+	6075 2275 6725 2275
+$Comp
+L Memory_Flash:W25Q128JVS U?
+U 1 1 64EBD60A
+P 5575 2075
+AR Path="/63E6E16A/64EBD60A" Ref="U?"  Part="1" 
+AR Path="/64EBD60A" Ref="U?"  Part="1" 
+AR Path="/64EAC854/64EBD60A" Ref="U2"  Part="1" 
+F 0 "U2" H 5225 2475 50  0000 C CNN
+F 1 "W25Q128JVS" H 5875 1675 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 5575 2075 50  0001 C CNN
+F 3 "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" H 5575 2075 50  0001 C CNN
+	1    5575 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 64EBD610
+P 5575 975
+AR Path="/63E6E16A/64EBD610" Ref="#PWR?"  Part="1" 
+AR Path="/64EBD610" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EBD610" Ref="#PWR0106"  Part="1" 
+F 0 "#PWR0106" H 5575 825 50  0001 C CNN
+F 1 "+3V3" H 5590 1148 50  0000 C CNN
+F 2 "" H 5575 975 50  0001 C CNN
+F 3 "" H 5575 975 50  0001 C CNN
+	1    5575 975 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64EBD616
+P 5575 2525
+AR Path="/63E6E16A/64EBD616" Ref="#PWR?"  Part="1" 
+AR Path="/64EBD616" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EBD616" Ref="#PWR0107"  Part="1" 
+F 0 "#PWR0107" H 5575 2275 50  0001 C CNN
+F 1 "GND" H 5425 2475 50  0000 C CNN
+F 2 "" H 5575 2525 50  0001 C CNN
+F 3 "" H 5575 2525 50  0001 C CNN
+	1    5575 2525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64EBD61C
+P 5825 1225
+AR Path="/63E6E16A/64EBD61C" Ref="C?"  Part="1" 
+AR Path="/64EBD61C" Ref="C?"  Part="1" 
+AR Path="/64EAC854/64EBD61C" Ref="C3"  Part="1" 
+F 0 "C3" H 5940 1271 50  0000 L CNN
+F 1 "100n" H 5940 1180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5863 1075 50  0001 C CNN
+F 3 "~" H 5825 1225 50  0001 C CNN
+	1    5825 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64EBD622
+P 5825 1425
+AR Path="/63E6E16A/64EBD622" Ref="#PWR?"  Part="1" 
+AR Path="/64EBD622" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EBD622" Ref="#PWR0108"  Part="1" 
+F 0 "#PWR0108" H 5825 1175 50  0001 C CNN
+F 1 "GND" H 5975 1375 50  0000 C CNN
+F 2 "" H 5825 1425 50  0001 C CNN
+F 3 "" H 5825 1425 50  0001 C CNN
+	1    5825 1425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 975  5575 1025
+Wire Wire Line
+	5825 1075 5825 1025
+Wire Wire Line
+	5825 1025 5575 1025
+Connection ~ 5575 1025
+Wire Wire Line
+	5575 2475 5575 2525
+Wire Wire Line
+	5825 1375 5825 1425
+Text Notes 5100 2875 0    50   ~ 0
+Large flash used. 16MByte\nsupported
+Text GLabel 1550 3725 0    50   Input ~ 0
+SWCLK
+Text GLabel 1550 3925 0    50   Input ~ 0
+SWD
+$Comp
+L power:GND #PWR?
+U 1 1 64EC0413
+P 975 3975
+AR Path="/64EC0413" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EC0413" Ref="#PWR0109"  Part="1" 
+F 0 "#PWR0109" H 975 3725 50  0001 C CNN
+F 1 "GND" H 980 3802 50  0000 C CNN
+F 2 "" H 975 3975 50  0001 C CNN
+F 3 "" H 975 3975 50  0001 C CNN
+	1    975  3975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	975  3975 975  3825
+Wire Wire Line
+	975  3825 1550 3825
+$Comp
+L Connector:Conn_01x03_Female J?
+U 1 1 64EC041B
+P 1750 3825
+AR Path="/64EC041B" Ref="J?"  Part="1" 
+AR Path="/64EAC854/64EC041B" Ref="J2"  Part="1" 
+F 0 "J2" H 1778 3851 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1778 3760 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1750 3825 50  0001 C CNN
+F 3 "~" H 1750 3825 50  0001 C CNN
+	1    1750 3825
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:NCP1117-3.3_SOT223 U?
+U 1 1 64EC8899
+P 9225 1575
+AR Path="/63E6E16A/64EC8899" Ref="U?"  Part="1" 
+AR Path="/64EC8899" Ref="U?"  Part="1" 
+AR Path="/64EAC854/64EC8899" Ref="U3"  Part="1" 
+F 0 "U3" H 9225 1817 50  0000 C CNN
+F 1 "NCP1117-3.3_SOT223" H 9225 1726 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9225 1775 50  0001 C CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/NCP1117-D.PDF" H 9325 1325 50  0001 C CNN
+	1    9225 1575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8925 1575 8525 1575
+$Comp
+L power:GND #PWR?
+U 1 1 64EC88A0
+P 9225 1925
+AR Path="/63E6E16A/64EC88A0" Ref="#PWR?"  Part="1" 
+AR Path="/64EC88A0" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EC88A0" Ref="#PWR0110"  Part="1" 
+F 0 "#PWR0110" H 9225 1675 50  0001 C CNN
+F 1 "GND" H 9075 1875 50  0000 C CNN
+F 2 "" H 9225 1925 50  0001 C CNN
+F 3 "" H 9225 1925 50  0001 C CNN
+	1    9225 1925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9225 1875 9225 1925
+Wire Wire Line
+	9525 1575 9925 1575
+Wire Wire Line
+	9925 1575 9925 1525
+$Comp
+L power:+3V3 #PWR?
+U 1 1 64EC88A9
+P 9925 1525
+AR Path="/63E6E16A/64EC88A9" Ref="#PWR?"  Part="1" 
+AR Path="/64EC88A9" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EC88A9" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 9925 1375 50  0001 C CNN
+F 1 "+3V3" H 9940 1698 50  0000 C CNN
+F 2 "" H 9925 1525 50  0001 C CNN
+F 3 "" H 9925 1525 50  0001 C CNN
+	1    9925 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64EC88AF
+P 8525 1775
+AR Path="/63E6E16A/64EC88AF" Ref="C?"  Part="1" 
+AR Path="/64EC88AF" Ref="C?"  Part="1" 
+AR Path="/64EAC854/64EC88AF" Ref="C4"  Part="1" 
+F 0 "C4" H 8640 1821 50  0000 L CNN
+F 1 "10u" H 8640 1730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8563 1625 50  0001 C CNN
+F 3 "~" H 8525 1775 50  0001 C CNN
+	1    8525 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 64EC88B5
+P 9925 1775
+AR Path="/63E6E16A/64EC88B5" Ref="C?"  Part="1" 
+AR Path="/64EC88B5" Ref="C?"  Part="1" 
+AR Path="/64EAC854/64EC88B5" Ref="C5"  Part="1" 
+F 0 "C5" H 10040 1821 50  0000 L CNN
+F 1 "10u" H 10040 1730 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9963 1625 50  0001 C CNN
+F 3 "~" H 9925 1775 50  0001 C CNN
+	1    9925 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64EC88BB
+P 8525 1975
+AR Path="/63E6E16A/64EC88BB" Ref="#PWR?"  Part="1" 
+AR Path="/64EC88BB" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EC88BB" Ref="#PWR0112"  Part="1" 
+F 0 "#PWR0112" H 8525 1725 50  0001 C CNN
+F 1 "GND" H 8375 1925 50  0000 C CNN
+F 2 "" H 8525 1975 50  0001 C CNN
+F 3 "" H 8525 1975 50  0001 C CNN
+	1    8525 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8525 1925 8525 1975
+$Comp
+L power:GND #PWR?
+U 1 1 64EC88C2
+P 9925 1975
+AR Path="/63E6E16A/64EC88C2" Ref="#PWR?"  Part="1" 
+AR Path="/64EC88C2" Ref="#PWR?"  Part="1" 
+AR Path="/64EAC854/64EC88C2" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 9925 1725 50  0001 C CNN
+F 1 "GND" H 9775 1925 50  0000 C CNN
+F 2 "" H 9925 1975 50  0001 C CNN
+F 3 "" H 9925 1975 50  0001 C CNN
+	1    9925 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9925 1925 9925 1975
+Wire Wire Line
+	8525 1625 8525 1575
+Wire Wire Line
+	9925 1625 9925 1575
+Connection ~ 9925 1575
+Connection ~ 8525 1575
+Wire Wire Line
+	8125 1575 8525 1575
+$Comp
+L power:VDD #PWR0114
+U 1 1 64ED0B52
+P 7500 1325
+F 0 "#PWR0114" H 7500 1175 50  0001 C CNN
+F 1 "VDD" H 7515 1498 50  0000 C CNN
+F 2 "" H 7500 1325 50  0001 C CNN
+F 3 "" H 7500 1325 50  0001 C CNN
+	1    7500 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 64ED1647
+P 8025 1575
+F 0 "D2" H 8025 1368 50  0000 C CNN
+F 1 "D_Small" H 8025 1459 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 8025 1575 50  0001 C CNN
+F 3 "~" V 8025 1575 50  0001 C CNN
+	1    8025 1575
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 64ED21DF
+P 7750 1575
+F 0 "D1" H 7750 1368 50  0000 C CNN
+F 1 "D_Small" H 7750 1459 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" V 7750 1575 50  0001 C CNN
+F 3 "~" V 7750 1575 50  0001 C CNN
+	1    7750 1575
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7500 1325 7500 1575
+Wire Wire Line
+	7500 1575 7650 1575
+Wire Wire Line
+	7850 1575 7925 1575
+$Comp
+L Device:R_Small R3
+U 1 1 64E97426
+P 1750 2850
+F 0 "R3" V 1600 2850 50  0000 C CNN
+F 1 "27R" V 1675 2875 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1750 2850 50  0001 C CNN
+F 3 "~" H 1750 2850 50  0001 C CNN
+	1    1750 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 64E979BB
+P 1750 2950
+F 0 "R4" V 1875 2950 50  0000 C CNN
+F 1 "27R" V 1950 2975 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1750 2950 50  0001 C CNN
+F 3 "~" H 1750 2950 50  0001 C CNN
+	1    1750 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0115
+U 1 1 64E97F58
+P 1150 3375
+F 0 "#PWR0115" H 1150 3125 50  0001 C CNN
+F 1 "GND" H 1155 3202 50  0000 C CNN
+F 2 "" H 1150 3375 50  0001 C CNN
+F 3 "" H 1150 3375 50  0001 C CNN
+	1    1150 3375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1150 3250 1150 3325
+Wire Wire Line
+	1050 3250 1050 3325
+Wire Wire Line
+	1050 3325 1150 3325
+Connection ~ 1150 3325
+Wire Wire Line
+	1150 3325 1150 3375
+Wire Wire Line
+	1450 2950 1650 2950
+Wire Wire Line
+	1850 2950 2075 2950
+Wire Wire Line
+	2075 2850 1850 2850
+Wire Wire Line
+	1650 2850 1450 2850
+Text GLabel 1900 2650 2    50   Input ~ 0
+USB_VBUS
+Wire Wire Line
+	1450 2650 1900 2650
+Text GLabel 3125 1250 2    50   Input ~ 0
+XIN
+Text GLabel 3125 1650 2    50   Input ~ 0
+XOUT
+Connection ~ 1875 1250
+Wire Wire Line
+	3125 1650 2725 1650
+Wire Wire Line
+	1875 1250 3125 1250
+Text GLabel 4425 1975 0    50   Input ~ 0
+QSPI_SS
+Wire Wire Line
+	4425 1975 4525 1975
+Connection ~ 4525 1975
+Text GLabel 4450 2175 0    50   Input ~ 0
+QSPI_SCLK
+Wire Wire Line
+	4525 1850 4525 1975
+Wire Wire Line
+	4450 2175 5075 2175
+Text GLabel 6725 1875 2    50   Input ~ 0
+QSPI_SD0
+Text GLabel 6725 1975 2    50   Input ~ 0
+QSPI_SD1
+Text GLabel 6725 2175 2    50   Input ~ 0
+QSPI_SD2
+Text GLabel 6725 2275 2    50   Input ~ 0
+QSPI_SD3
+$EndSCHEMATC
