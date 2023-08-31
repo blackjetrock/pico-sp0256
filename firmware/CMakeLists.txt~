@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.18)
+
+include(pico_sdk_import.cmake)
+
+project(spo256 C CXX ASM)
+
+    add_executable(spo256
+            spo256.c
+            )
+
+    pico_sdk_init()
+
+    # pull in common dependencies
+    target_link_libraries(spo256 pico_stdlib hardware_gpio hardware_pwm)
+
+    # enable usb output, disable uart output
+    pico_enable_stdio_usb(spo256 1)
+//    pico_enable_stdio_uart(spo256 0)
+
+    # create map/bin/hex/uf2 file etc.
+    pico_add_extra_outputs(spo256)
+
+    # add url via pico_set_program_url
+    #example_auto_set_url(spo256)
