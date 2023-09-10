@@ -96,13 +96,13 @@ int main()
   uint8_t alist[] ={HH,EH,LL,AX,OW,PA5,WW,OR,LL,DD1};
 
   //uint8_t alist[] ={AR,PA5,SS,SS,IY,PA5,TT2,WH,EH,EH,NN1,PA2,PA3,TT2,IY,PA5,FF,OR,PA3,TT2,IY,PA5};
-  
-  printf("Starting");
-  
-  PlayAllophones(alist,sizeof(alist));
-  
-  //wait....
-  while(1);
-  
-  
-}//main
+
+  while(1)
+    {
+      printf("Playing");
+      
+      PlayAllophones(alist,sizeof(alist));
+
+      sleep_ms(3000);
+    }
+}
