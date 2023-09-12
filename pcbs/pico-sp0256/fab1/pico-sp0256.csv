@@ -1,0 +1,16 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"R4,R3";"R_0805_2012Metric";2;"27R";;;
+2;"Y1";"ecx-32";1;"ABLS-12.000MHZ-B4-T";;;
+3;"U1";"DIP-28_W15.24mm";1;"SP0256AL2";;;
+4;"D2,D1";"D_SOD-123";2;"D_Small";;;
+5;"U5";"RP2040-QFN-56-no_holes";1;"RP2040";;;
+6;"U3";"SOT-223-3_TabPin2";1;"NCP1117-3.3_SOT223";;;
+7;"U2";"SOIC-8_5.23x5.23mm_P1.27mm";1;"W25Q128JVS";;;
+8;"R2";"C_0402_1005Metric";1;"10k";;;
+9;"R1";"C_0402_1005Metric";1;"1k";;;
+10;"J2";"PinHeader_1x03_P2.54mm_Vertical";1;"Conn_01x03_Female";;;
+11;"J1";"USB_Micro-B_GCT_USB3076-30-A";1;"USB_B_Micro";;;
+12;"C12,C11,C9,C7,C6,C3";"C_0402_1005Metric";6;"100n";;;
+13;"C10,C8";"C_0402_1005Metric";2;"1u";;;
+14;"C5,C4";"C_0805_2012Metric";2;"10u";;;
+15;"C2,C1";"C_0402_1005Metric";2;"27p";;;
