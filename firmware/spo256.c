@@ -10,14 +10,15 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
+#include "pico/multicore.h"
 
 //program includes
 #include "allophones.c"
 #include "allophoneDefs.h"
 
 //must be pins on the same slice
-#define soundIO1 15
-#define soundIO2 11
+#define soundIO1 11
+#define soundIO2 12
 
 #define PIN_SP_A1            0
 #define PIN_SP_A2            1
@@ -32,7 +33,7 @@
 #define PIN_SP_SBY_RES_N    10
 #define PIN_SP_DIGITAL_OUT  11
 #define PIN_SP_RESET_N      12
-#define PIN_SP_IRQ_N        13
+#define PIN_SP_LRQ_N        13
 #define PIN_SP_SBY          14
 
 
@@ -44,65 +45,158 @@ void PlayAllophone(int al)
 {
   int b,s;
   uint8_t v;
-
+  
   s=allophonesizeCorrected[al];
-
+  //printf("\nstart %d", s);
+  
   for(b=0;b<s;b++)
     {
       v=allophoneindex[al][b]; //get delta value
-
+      //printf("\n%d", v);
+      
+      pwm_set_both_levels(PWMslice,v,v);
       sleep_us(rate);
-
-      pwm_set_both_levels(PWMslice,v,~v);
+      //sleep_ms(2);
     }
+
+  //printf("\nend");
 }
 
 void PlayAllophones(uint8_t *alist,int listlength)
 {
   int a;
-  
+
+  printf("\nStart allophones");
   for(a=0; a<listlength; a++)
     {
       PlayAllophone(alist[a]);
     }
+
+  pwm_set_both_levels(PWMslice, 0x0, 0x0);
 }
 
-void SetPWM(void){
-    gpio_init(soundIO1);
-    gpio_set_dir(soundIO1,GPIO_OUT);
-    gpio_set_function(soundIO1, GPIO_FUNC_PWM);
-    
-    gpio_init(soundIO2);
-    gpio_set_dir(soundIO2,GPIO_OUT);
-    gpio_set_function(soundIO2, GPIO_FUNC_PWM);
-    
-    PWMslice=pwm_gpio_to_slice_num (soundIO1);
-    pwm_set_clkdiv(PWMslice,16);
-    pwm_set_both_levels(PWMslice,0x80,0x80);
-    
-    pwm_set_output_polarity(PWMslice,true,false);
+void SetPWM(void)
+{
+  gpio_init(soundIO1);
+  gpio_set_dir(soundIO1,GPIO_OUT);
+  gpio_set_function(soundIO1, GPIO_FUNC_PWM);
+  
+  //  gpio_init(soundIO2);
+  //gpio_set_dir(soundIO2,GPIO_OUT);
+  //gpio_set_function(soundIO2, GPIO_FUNC_PWM);
+  
+  PWMslice=pwm_gpio_to_slice_num (soundIO1);
+  
+  pwm_set_clkdiv(PWMslice,16);
+  pwm_set_both_levels(PWMslice,0x80,0x80);
+  
+  pwm_set_output_polarity(PWMslice,true,false);
+  
+  pwm_set_wrap (PWMslice, 256);
+  pwm_set_enabled(PWMslice,true);
+  
+}
 
-    pwm_set_wrap (PWMslice, 256);
-    pwm_set_enabled(PWMslice,true);
+void test_gpios(void)
+{
+  gpio_init(soundIO1);
+  gpio_set_dir(soundIO1,GPIO_OUT);
 
+  while(1)
+    {
+      gpio_put(soundIO1, 0);
+      sleep_ms(2);
+      gpio_put(soundIO1, 1);
+      sleep_ms(2);
+      
+    }
+  
+
+}
+
+void test_gpios2(void)
+{
+  SetPWM();
+  
+  while(1)
+    {
+      pwm_set_both_levels(PWMslice,0x10,0x10);
+      //      gpio_put(soundIO1, 0);
+      sleep_ms(2);
+      pwm_set_both_levels(PWMslice,0xA0,0xA0);
+      //gpio_put(soundIO1, 1);
+      sleep_ms(2);
+      
+    }
+}
+
+void core1_main(void)
+{
+  uint8_t alist[] ={AR,PA5,PP,EH,IY,PA5,TT2,WH,EH,EH,NN1,PA2,PA3,TT2,IY,PA5,FF,OR,PA3,TT2,IY,PA5};
+
+  printf("\nCore1 started");
+  
+  while(1)
+    {
+      printf("\nPlaying %d", sizeof(alist));
+      
+      PlayAllophones(alist,sizeof(alist));
+
+      sleep_ms(3000);
+
+    }
 }
 
 
 int main()
 {
   stdio_init_all();
-  SetPWM();
+  //  sleep_ms(2000);
+
+  printf("\n*********************");
+  printf("\n*  SP0256 Emulator  *");
+  printf("\n*********************");
   
-  uint8_t alist[] ={HH,EH,LL,AX,OW,PA5,WW,OR,LL,DD1};
+  gpio_init(PIN_SP_LRQ_N);
+  gpio_set_dir(PIN_SP_LRQ_N, GPIO_OUT);
+  gpio_put(PIN_SP_LRQ_N, 0);
 
-  //uint8_t alist[] ={AR,PA5,SS,SS,IY,PA5,TT2,WH,EH,EH,NN1,PA2,PA3,TT2,IY,PA5,FF,OR,PA3,TT2,IY,PA5};
+  gpio_init(PIN_SP_SBY);
+  gpio_set_dir(PIN_SP_SBY, GPIO_OUT);
+  gpio_put(PIN_SP_SBY, 1);
+  
+  SetPWM();
+  //test_gpios2();
+  
+  //uint8_t alist[] ={HH,EH,LL,AX,OW,PA5,WW,OR,LL,DD1};
 
+  //multicore_launch_core1(core1_main);
+
+  int last_ald = gpio_get(PIN_SP_ALD);
+  int ald;
+  
   while(1)
     {
-      printf("Playing");
-      
-      PlayAllophones(alist,sizeof(alist));
+      // Sit in loop waiting for allophone selection
+      ald = gpio_get(PIN_SP_ALD);
 
-      sleep_ms(3000);
+      if( (ald == 0) && (last_ald == 1) )
+	{
+	  printf("\nNeg edge");
+
+	  // When we get a neg edge we lath the address lines in
+	  int gpio_states = (sio_hw->gpio_in) & 0xFF;
+
+	  printf("\nAllophone %d", gpio_states);
+
+	  gpio_put(PIN_SP_LRQ_N, 1);
+	  gpio_put(PIN_SP_SBY, 0);
+	  PlayAllophone(gpio_states);
+	  gpio_put(PIN_SP_LRQ_N, 0);
+	  gpio_put(PIN_SP_SBY, 1);
+	}
+
+      last_ald = ald;
     }
+  
 }

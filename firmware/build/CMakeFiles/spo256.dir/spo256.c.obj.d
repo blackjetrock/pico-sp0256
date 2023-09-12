@@ -59,5 +59,12 @@ CMakeFiles/spo256.dir/spo256.c.obj: \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+ /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
  /tree/projects/github/pico-sp0256/firmware/allophones.c \
  /tree/projects/github/pico-sp0256/firmware/allophoneDefs.h

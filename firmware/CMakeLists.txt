@@ -12,7 +12,7 @@ project(spo256 C CXX ASM)
     pico_sdk_init()
 
     # pull in common dependencies
-    target_link_libraries(spo256 pico_stdlib hardware_gpio hardware_pwm)
+    target_link_libraries(spo256 pico_stdlib hardware_gpio hardware_pwm pico_multicore)
 
     # enable usb output, disable uart output
     pico_enable_stdio_usb(spo256 1)

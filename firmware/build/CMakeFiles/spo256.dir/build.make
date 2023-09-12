@@ -1038,6 +1038,20 @@ CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardwar
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s"
 	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c -o CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/spo256.dir/flags.make
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: CMakeFiles/spo256.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/tree/projects/github/pico-sp0256/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -MF CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj.d -o CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj -c /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c
+
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c > CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s"
+	/usr/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c -o CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 # Object files for target spo256
 spo256_OBJECTS = \
 "CMakeFiles/spo256.dir/spo256.c.obj" \
@@ -1109,7 +1123,8 @@ spo256_OBJECTS = \
 "CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj" \
 "CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj" \
 "CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj" \
-"CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+"CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj" \
+"CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj"
 
 # External object files for target spo256
 spo256_EXTERNAL_OBJECTS =
@@ -1184,10 +1199,11 @@ spo256.elf: CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyus
 spo256.elf: CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 spo256.elf: CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 spo256.elf: CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+spo256.elf: CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
 spo256.elf: CMakeFiles/spo256.dir/build.make
 spo256.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 spo256.elf: CMakeFiles/spo256.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tree/projects/github/pico-sp0256/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Linking CXX executable spo256.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/tree/projects/github/pico-sp0256/firmware/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Linking CXX executable spo256.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spo256.dir/link.txt --verbose=$(VERBOSE)
 	/usr/bin/arm-none-eabi-objcopy -Oihex /tree/projects/github/pico-sp0256/firmware/build/spo256.elf spo256.hex
 	/usr/bin/arm-none-eabi-objcopy -Obinary /tree/projects/github/pico-sp0256/firmware/build/spo256.elf spo256.bin

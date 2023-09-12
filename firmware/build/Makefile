@@ -1428,6 +1428,30 @@ tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 .PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj: tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj
+
+# target to build an object file
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i: tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i
+
+# target to preprocess a source file
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i
+
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s: tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s
+
+# target to generate assembly for a file
+tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+.PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.s
+
 tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 .PHONY : tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
@@ -1891,6 +1915,9 @@ help:
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.obj"
+	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.i"
+	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.s"
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"

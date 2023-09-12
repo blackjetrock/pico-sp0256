@@ -72,9 +72,19 @@ Discarded input sections
  .data          0x0000000000000000        0x0 CMakeFiles/spo256.dir/spo256.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/spo256.dir/spo256.c.obj
  .text.PlayAllophone
-                0x0000000000000000       0x60 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000000000000       0x58 CMakeFiles/spo256.dir/spo256.c.obj
+ .rodata.PlayAllophones.str1.4
+                0x0000000000000000       0x12 CMakeFiles/spo256.dir/spo256.c.obj
  .text.PlayAllophones
-                0x0000000000000000       0x7c CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000000000000       0xa8 CMakeFiles/spo256.dir/spo256.c.obj
+ .text.test_gpios
+                0x0000000000000000       0x28 CMakeFiles/spo256.dir/spo256.c.obj
+ .text.test_gpios2
+                0x0000000000000000       0x4c CMakeFiles/spo256.dir/spo256.c.obj
+ .rodata.core1_main.str1.4
+                0x0000000000000000       0x33 CMakeFiles/spo256.dir/spo256.c.obj
+ .text.core1_main
+                0x0000000000000000       0xd4 CMakeFiles/spo256.dir/spo256.c.obj
  .rodata.allophonesize
                 0x0000000000000000      0x100 CMakeFiles/spo256.dir/spo256.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
@@ -838,16 +848,13 @@ Discarded input sections
  .rodata.__wrap_malloc.str1.4
                 0x0000000000000000        0xe CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_malloc
-                0x0000000000000000       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_calloc
-                0x0000000000000000       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_realloc
-                0x0000000000000000       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .text.__wrap_free
-                0x0000000000000000        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .comment       0x0000000000000000       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
- .ARM.attributes
-                0x0000000000000000       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+                0x0000000000000000       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .text.aeabi_memset_memcpy
@@ -1120,9 +1127,54 @@ Discarded input sections
                 0x0000000000000000       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .time_critical.flash_range_program
                 0x0000000000000000       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .text          0x0000000000000000        0x0 /tmp/ccKVj3KY.o
- .data          0x0000000000000000        0x0 /tmp/ccKVj3KY.o
- .bss           0x0000000000000000        0x0 /tmp/ccKVj3KY.o
+ .text          0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.core1_trampoline
+                0x0000000000000000        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .time_critical.multicore_lockout_handler
+                0x0000000000000000       0x5c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.core1_wrapper
+                0x0000000000000000        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_handshake
+                0x0000000000000000      0x12c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_fifo_push_blocking
+                0x0000000000000000       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_fifo_push_timeout_us
+                0x0000000000000000       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_fifo_pop_blocking
+                0x0000000000000000       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_fifo_pop_timeout_us
+                0x0000000000000000       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_reset_core1
+                0x0000000000000000       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_launch_core1_raw
+                0x0000000000000000       0x84 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_launch_core1_with_stack
+                0x0000000000000000       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_launch_core1
+                0x0000000000000000       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_victim_init
+                0x0000000000000000       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_start_timeout_us
+                0x0000000000000000       0x98 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_start_blocking
+                0x0000000000000000       0x6c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_end_timeout_us
+                0x0000000000000000       0x60 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text.multicore_lockout_end_blocking
+                0x0000000000000000       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .bss.lockout_in_progress
+                0x0000000000000000        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .bss.lockout_mutex
+                0x0000000000000000        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .stack1        0x0000000000000000      0x800 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .comment       0x0000000000000000       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+ .text          0x0000000000000000        0x0 /tmp/ccM5YKr3.o
+ .data          0x0000000000000000        0x0 /tmp/ccM5YKr3.o
+ .bss           0x0000000000000000        0x0 /tmp/ccM5YKr3.o
  .data          0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x0000000000000000        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x0000000000000000       0x10 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-atexit.o)
@@ -1386,11 +1438,11 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
 .boot2          0x0000000010000000      0x100
                 0x0000000010000000                __boot2_start__ = .
  *(.boot2)
- .boot2         0x0000000010000000      0x100 /tmp/ccKVj3KY.o
+ .boot2         0x0000000010000000      0x100 /tmp/ccM5YKr3.o
                 0x0000000010000100                __boot2_end__ = .
                 0x0000000000000001                ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x0000000010000100     0x7428
+.text           0x0000000010000100     0x7460
                 0x0000000010000100                __logical_binary_start = .
  *(.vectors)
  .vectors       0x0000000010000100       0xd4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
@@ -1452,589 +1504,589 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x00000000100002c0                _init
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .text*)
  .text          0x00000000100002c4       0x98 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
- .text.SetPWM   0x000000001000035c       0x78 CMakeFiles/spo256.dir/spo256.c.obj
+ .text.SetPWM   0x000000001000035c       0x5c CMakeFiles/spo256.dir/spo256.c.obj
                 0x000000001000035c                SetPWM
  .text.startup.main
-                0x00000000100003d4       0xa8 CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100003d4                main
+                0x00000000100003b8       0xfc CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100003b8                main
  .text.gpio_set_function
-                0x000000001000047c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x000000001000047c                gpio_set_function
+                0x00000000100004b4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100004b4                gpio_set_function
  .text.gpio_init
-                0x00000000100004ac       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x00000000100004ac                gpio_init
+                0x00000000100004e4       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00000000100004e4                gpio_init
  .text.hw_claim_or_assert
-                0x00000000100004e8       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x00000000100004e8                hw_claim_or_assert
+                0x0000000010000520       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000520                hw_claim_or_assert
  .text.hw_claim_unused_from_range
-                0x0000000010000530       0x9c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-                0x0000000010000530                hw_claim_unused_from_range
+                0x0000000010000568       0x9c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+                0x0000000010000568                hw_claim_unused_from_range
  .text.running_on_fpga
-                0x00000000100005cc       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-                0x00000000100005cc                running_on_fpga
+                0x0000000010000604       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+                0x0000000010000604                running_on_fpga
  .text.spin_locks_reset
-                0x00000000100005dc       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100005dc                spin_locks_reset
+                0x0000000010000614       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000614                spin_locks_reset
  .text.next_striped_spin_lock_num
-                0x00000000100005f8       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x00000000100005f8                next_striped_spin_lock_num
+                0x0000000010000630       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000630                next_striped_spin_lock_num
  .text.spin_lock_claim_unused
-                0x0000000010000610       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-                0x0000000010000610                spin_lock_claim_unused
+                0x0000000010000648       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000010000648                spin_lock_claim_unused
  .text.irq_set_enabled
-                0x0000000010000630       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000630                irq_set_enabled
+                0x0000000010000668       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000668                irq_set_enabled
  .text.irq_set_pending
-                0x0000000010000654       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000654                irq_set_pending
+                0x000000001000068c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000068c                irq_set_pending
  .text.irq_has_shared_handler
-                0x0000000010000664       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000664                irq_has_shared_handler
+                0x000000001000069c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000069c                irq_has_shared_handler
  .text.irq_get_vtable_handler
-                0x0000000010000690       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000690                irq_get_vtable_handler
+                0x00000000100006c8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006c8                irq_get_vtable_handler
  .text.irq_set_exclusive_handler
-                0x00000000100006a0       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006a0                irq_set_exclusive_handler
+                0x00000000100006d8       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100006d8                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x00000000100006f4      0x1c0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100006f4                irq_add_shared_handler
+                0x000000001000072c      0x1c0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x000000001000072c                irq_add_shared_handler
  .text.irq_remove_handler
-                0x00000000100008b4      0x1b4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x00000000100008b4                irq_remove_handler
+                0x00000000100008ec      0x1b4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x00000000100008ec                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x0000000010000a68       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000a68                irq_add_tail_to_free_list
+                0x0000000010000aa0       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000aa0                irq_add_tail_to_free_list
  .text.irq_init_priorities
-                0x0000000010000b20       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000b20                irq_init_priorities
+                0x0000000010000b58       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000b58                irq_init_priorities
  .text.user_irq_claim_unused
-                0x0000000010000b44       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-                0x0000000010000b44                user_irq_claim_unused
+                0x0000000010000b7c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000010000b7c                user_irq_claim_unused
  .text.lock_init
-                0x0000000010000b74       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-                0x0000000010000b74                lock_init
+                0x0000000010000bac       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+                0x0000000010000bac                lock_init
  .text.timer_pool_entry_comparator
-                0x0000000010000b84       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000b84                timer_pool_entry_comparator
+                0x0000000010000bbc       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bbc                timer_pool_entry_comparator
  .text.sleep_until_callback
-                0x0000000010000bb8       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000bf0       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_add_alarm_at.constprop.0
-                0x0000000010000be8      0x128 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000c20      0x128 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.add_alarm_under_lock
-                0x0000000010000d10      0x108 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000d48      0x108 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_alarm_callback
-                0x0000000010000e18      0x1c8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010000e50      0x1c8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .text.alarm_pool_init_default
-                0x0000000010000fe0       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010000fe0                alarm_pool_init_default
+                0x0000000010001018       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001018                alarm_pool_init_default
  .text.alarm_pool_get_default
-                0x0000000010001044        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x0000000010001044                alarm_pool_get_default
+                0x000000001000107c        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000107c                alarm_pool_get_default
  .text.alarm_pool_add_alarm_at
-                0x000000001000104c      0x1ac CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x000000001000104c                alarm_pool_add_alarm_at
+                0x0000000010001084      0x1ac CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001084                alarm_pool_add_alarm_at
  .text.sleep_until
-                0x00000000100011f8       0xac CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100011f8                sleep_until
+                0x0000000010001230       0xac CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000010001230                sleep_until
  .text.sleep_us
-                0x00000000100012a4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100012a4                sleep_us
+                0x00000000100012dc       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000100012dc                sleep_us
  .text.best_effort_wfe_or_timeout
-                0x00000000100012d4       0xd4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
-                0x00000000100012d4                best_effort_wfe_or_timeout
+                0x000000001000130c       0xd4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000001000130c                best_effort_wfe_or_timeout
  .text.hardware_alarm_irq_handler
-                0x00000000100013a8       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100013e0       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .text.hardware_alarm_claim
-                0x0000000010001460       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001460                hardware_alarm_claim
+                0x0000000010001498       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001498                hardware_alarm_claim
  .text.time_us_64
-                0x0000000010001478       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001478                time_us_64
+                0x00000000100014b0       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100014b0                time_us_64
  .text.busy_wait_until
-                0x000000001000148c       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000148c                busy_wait_until
+                0x00000000100014c4       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100014c4                busy_wait_until
  .text.hardware_alarm_set_callback
-                0x00000000100014ac       0x8c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x00000000100014ac                hardware_alarm_set_callback
+                0x00000000100014e4       0x8c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x00000000100014e4                hardware_alarm_set_callback
  .text.hardware_alarm_set_target
-                0x0000000010001538       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x0000000010001538                hardware_alarm_set_target
+                0x0000000010001570       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001570                hardware_alarm_set_target
  .text.hardware_alarm_cancel
-                0x000000001000161c       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-                0x000000001000161c                hardware_alarm_cancel
+                0x0000000010001654       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000010001654                hardware_alarm_cancel
  .text.ph_merge_nodes
-                0x000000001000165c       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001694       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_post_alloc_init
-                0x00000000100016c4       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100016c4                ph_post_alloc_init
+                0x00000000100016fc       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100016fc                ph_post_alloc_init
  .text.ph_merge_two_pass
-                0x0000000010001700       0x90 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001700                ph_merge_two_pass
+                0x0000000010001738       0x90 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x0000000010001738                ph_merge_two_pass
  .text.ph_remove_any_head
-                0x0000000010001790       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100017c8       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
  .text.ph_remove_head
-                0x0000000010001888      0x13c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x0000000010001888                ph_remove_head
+                0x00000000100018c0      0x13c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100018c0                ph_remove_head
  .text.ph_remove_and_free_node
-                0x00000000100019c4       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-                0x00000000100019c4                ph_remove_and_free_node
+                0x00000000100019fc       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+                0x00000000100019fc                ph_remove_and_free_node
  .text.mutex_init
-                0x0000000010001a40       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001a40                mutex_init
+                0x0000000010001a78       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001a78                mutex_init
  .text.recursive_mutex_init
-                0x0000000010001a5c       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-                0x0000000010001a5c                recursive_mutex_init
+                0x0000000010001a94       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+                0x0000000010001a94                recursive_mutex_init
  .text.critical_section_init
-                0x0000000010001a78       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-                0x0000000010001a78                critical_section_init
+                0x0000000010001ab0       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+                0x0000000010001ab0                critical_section_init
  .text.uart_init
-                0x0000000010001a94       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000010001a94                uart_init
+                0x0000000010001acc       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000010001acc                uart_init
  .text.runtime_init
-                0x0000000010001b78       0xf0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001b78                runtime_init
- .text.exit     0x0000000010001c68        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001c68                exit
- .text.panic    0x0000000010001c6c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001c6c                panic
+                0x0000000010001bb0       0xf0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001bb0                runtime_init
+ .text.exit     0x0000000010001ca0        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001ca0                exit
+ .text.panic    0x0000000010001ca4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001ca4                panic
  .text.hard_assertion_failure
-                0x0000000010001c9c        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-                0x0000000010001c9c                hard_assertion_failure
+                0x0000000010001cd4        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010001cd4                hard_assertion_failure
  .text.clocks_init
-                0x0000000010001ca8      0x2bc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001ca8                clocks_init
+                0x0000000010001ce0      0x2bc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001ce0                clocks_init
  .text.clock_get_hz
-                0x0000000010001f64        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x0000000010001f64                clock_get_hz
+                0x0000000010001f9c        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000010001f9c                clock_get_hz
  .text.pll_init
-                0x0000000010001f70       0xa8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-                0x0000000010001f70                pll_init
+                0x0000000010001fa8       0xa8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000000010001fa8                pll_init
  .text.watchdog_start_tick
-                0x0000000010002018       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010002018                watchdog_start_tick
+                0x0000000010002050       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002050                watchdog_start_tick
  .text.watchdog_reboot
-                0x0000000010002028       0x98 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-                0x0000000010002028                watchdog_reboot
+                0x0000000010002060       0x98 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000010002060                watchdog_reboot
  .text.xosc_init
-                0x00000000100020c0       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x00000000100020c0                xosc_init
+                0x00000000100020f8       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x00000000100020f8                xosc_init
  .text._out_null
-                0x00000000100020e8        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002120        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x00000000100020ec       0xd0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002124       0xd0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x00000000100021bc      0x1d0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100021f4      0x1d0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x000000001000238c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100023c4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._out_fct
-                0x000000001000239c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x00000000100023ac      0x478 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x0000000010002824      0x3e0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x00000000100023d4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x00000000100023e4      0x478 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x000000001000285c      0x3e0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x0000000010002c04      0xb08 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010002c3c      0xb08 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .text.vfctprintf
-                0x000000001000370c       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000370c                vfctprintf
+                0x0000000010003744       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003744                vfctprintf
  .text.weak_raw_vprintf
-                0x000000001000372c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-                0x000000001000372c                weak_raw_vprintf
- .text          0x000000001000375c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000010003764       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010003764                weak_raw_vprintf
+ .text          0x0000000010003794       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.rom_func_lookup
-                0x000000001000376c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000376c                rom_func_lookup
+                0x00000000100037a4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100037a4                rom_func_lookup
  .text.rom_data_lookup
-                0x000000001000377c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000377c                rom_data_lookup
+                0x00000000100037b4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100037b4                rom_data_lookup
  .text.rom_funcs_lookup
-                0x000000001000378c       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x000000001000378c                rom_funcs_lookup
+                0x00000000100037c4       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x00000000100037c4                rom_funcs_lookup
  .text.__wrap___aeabi_idiv
-                0x00000000100037c8       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x00000000100037c8                __wrap___aeabi_idivmod
-                0x00000000100037c8                divmod_s32s32
-                0x00000000100037c8                div_s32s32
-                0x00000000100037c8                __wrap___aeabi_idiv
-                0x00000000100037d0                divmod_s32s32_unsafe
-                0x00000000100037fc                divmod_s32s32_savestate
+                0x0000000010003800       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003800                __wrap___aeabi_idivmod
+                0x0000000010003800                divmod_s32s32
+                0x0000000010003800                div_s32s32
+                0x0000000010003800                __wrap___aeabi_idiv
+                0x0000000010003808                divmod_s32s32_unsafe
+                0x0000000010003834                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x0000000010003818       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003818                __wrap___aeabi_uidiv
-                0x0000000010003818                __wrap___aeabi_uidivmod
-                0x0000000010003818                div_u32u32
-                0x0000000010003818                divmod_u32u32
-                0x0000000010003820                divmod_u32u32_unsafe
-                0x0000000010003848                divmod_u32u32_savestate
+                0x0000000010003850       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x0000000010003850                __wrap___aeabi_uidiv
+                0x0000000010003850                __wrap___aeabi_uidivmod
+                0x0000000010003850                div_u32u32
+                0x0000000010003850                divmod_u32u32
+                0x0000000010003858                divmod_u32u32_unsafe
+                0x0000000010003880                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x0000000010003864      0x434 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-                0x0000000010003864                div_s64s64
-                0x0000000010003864                divmod_s64s64
-                0x0000000010003864                __wrap___aeabi_ldivmod
-                0x000000001000389c                div_u64u64
-                0x000000001000389c                divmod_u64u64
-                0x000000001000389c                __wrap___aeabi_uldivmod
-                0x00000000100038ac                divmod_u64u64_savestate
-                0x00000000100038d4                divmod_s64s64_unsafe
-                0x000000001000395c                divmod_u64u64_unsafe
+                0x000000001000389c      0x434 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+                0x000000001000389c                div_s64s64
+                0x000000001000389c                divmod_s64s64
+                0x000000001000389c                __wrap___aeabi_ldivmod
+                0x00000000100038d4                div_u64u64
+                0x00000000100038d4                divmod_u64u64
+                0x00000000100038d4                __wrap___aeabi_uldivmod
+                0x00000000100038e4                divmod_u64u64_savestate
+                0x000000001000390c                divmod_s64s64_unsafe
+                0x0000000010003994                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x0000000010003c98       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003c98                __wrap___aeabi_drsub
-                0x0000000010003c9e                __wrap___aeabi_dsub
-                0x0000000010003cb0                __wrap___aeabi_dadd
-                0x0000000010003cc2                __wrap___aeabi_ddiv
-                0x0000000010003cfe                __wrap___aeabi_dmul
+                0x0000000010003cd0       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003cd0                __wrap___aeabi_drsub
+                0x0000000010003cd6                __wrap___aeabi_dsub
+                0x0000000010003ce8                __wrap___aeabi_dadd
+                0x0000000010003cfa                __wrap___aeabi_ddiv
+                0x0000000010003d36                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x0000000010003d18       0x6c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d18                __wrap___aeabi_cdrcmple
-                0x0000000010003d28                __wrap___aeabi_cdcmple
-                0x0000000010003d28                __wrap___aeabi_cdcmpeq
+                0x0000000010003d50       0x6c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003d50                __wrap___aeabi_cdrcmple
+                0x0000000010003d60                __wrap___aeabi_cdcmple
+                0x0000000010003d60                __wrap___aeabi_cdcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x0000000010003d84        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d84                __wrap___aeabi_dcmplt
+                0x0000000010003dbc        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003dbc                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x0000000010003d90       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003d90                __wrap___aeabi_dcmple
+                0x0000000010003dc8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003dc8                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x0000000010003da0       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003da0                __wrap___aeabi_dcmpge
+                0x0000000010003dd8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003dd8                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x0000000010003db0        0xa CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003db0                __wrap___aeabi_dcmpgt
+                0x0000000010003de8        0xa CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003de8                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x0000000010003dba       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003dba                __wrap___aeabi_dcmpun
- *fill*         0x0000000010003dd6        0x2 
+                0x0000000010003df2       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003df2                __wrap___aeabi_dcmpun
+ *fill*         0x0000000010003e0e        0x2 
  .text.__wrap___aeabi_i2d
-                0x0000000010003dd8       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003dd8                __wrap___aeabi_ui2d
-                0x0000000010003de0                __wrap___aeabi_i2d
+                0x0000000010003e10       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003e10                __wrap___aeabi_ui2d
+                0x0000000010003e18                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x0000000010003e10       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003e10                __wrap___aeabi_d2iz
-                0x0000000010003e10                double2int_z
+                0x0000000010003e48       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003e48                __wrap___aeabi_d2iz
+                0x0000000010003e48                double2int_z
  .text.__wrap___aeabi_d2uiz
-                0x0000000010003e58       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-                0x0000000010003e58                double2uint
-                0x0000000010003e58                __wrap___aeabi_d2uiz
+                0x0000000010003e90       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x0000000010003e90                double2uint
+                0x0000000010003e90                __wrap___aeabi_d2uiz
  .text.__aeabi_double_init
-                0x0000000010003e70       0xc0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000010003e70                __aeabi_double_init
+                0x0000000010003ea8       0xc0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000010003ea8                __aeabi_double_init
  .text.double_table_shim_on_use_helper
-                0x0000000010003f30       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003f30                double_table_shim_on_use_helper
+                0x0000000010003f68       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003f68                double_table_shim_on_use_helper
  .text.__wrap___aeabi_dsub
-                0x0000000010003f5c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003f5c                drsub_shim
-                0x0000000010003f62                dsub_shim
+                0x0000000010003f94       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003f94                drsub_shim
+                0x0000000010003f9a                dsub_shim
  .text.dadd_shim
-                0x0000000010003f6c      0x15c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010003f6c                dadd_shim
+                0x0000000010003fa4      0x15c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010003fa4                dadd_shim
  .text.dmul_shim
-                0x00000000100040c8      0x15c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100040c8                dmul_shim
+                0x0000000010004100      0x15c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x0000000010004100                dmul_shim
  .text.ddiv_shim
-                0x0000000010004224      0x1b0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004224                ddiv_shim
+                0x000000001000425c      0x1b0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000425c                ddiv_shim
  .text.double2uint_shim
-                0x00000000100043d4        0xe CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100043d4                double2uint_shim
-                0x00000000100043d6                double2ufix_shim
- *fill*         0x00000000100043e2        0x2 
+                0x000000001000440c        0xe CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000440c                double2uint_shim
+                0x000000001000440e                double2ufix_shim
+ *fill*         0x000000001000441a        0x2 
  .text.double2uint64_shim
-                0x00000000100043e4       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x00000000100043e4                double2uint64_shim
-                0x00000000100043e6                double2ufix64_shim
-                0x0000000010004406                d2fix_a
+                0x000000001000441c       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000441c                double2uint64_shim
+                0x000000001000441e                double2ufix64_shim
+                0x000000001000443e                d2fix_a
  .text.dunpacks
-                0x0000000010004454       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-                0x0000000010004454                dunpacks
+                0x000000001000448c       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+                0x000000001000448c                dunpacks
  .text.__aeabi_lmul
-                0x0000000010004490       0x32 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x0000000010004490                __wrap___aeabi_lmul
- *fill*         0x00000000100044c2        0x2 
+                0x00000000100044c8       0x32 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x00000000100044c8                __wrap___aeabi_lmul
+ *fill*         0x00000000100044fa        0x2 
  .text.__aeabi_float_init
-                0x00000000100044c4       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x00000000100044c4                __aeabi_float_init
+                0x00000000100044fc       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x00000000100044fc                __aeabi_float_init
  .text.float_table_shim_on_use_helper
-                0x0000000010004528       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-                0x0000000010004528                float_table_shim_on_use_helper
- .text          0x0000000010004554       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004554                __aeabi_mem_init
- .text.memset   0x0000000010004564        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004564                __wrap_memset
- .text.memcpy   0x0000000010004570        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x0000000010004570                __wrap___aeabi_memcpy
-                0x0000000010004570                __wrap_memcpy
+                0x0000000010004560       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+                0x0000000010004560                float_table_shim_on_use_helper
+ .text          0x000000001000458c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000001000458c                __aeabi_mem_init
+ .text.memset   0x000000001000459c        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x000000001000459c                __wrap_memset
+ .text.memcpy   0x00000000100045a8        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x00000000100045a8                __wrap___aeabi_memcpy
+                0x00000000100045a8                __wrap_memcpy
  .text.stdio_out_chars_no_crlf
-                0x000000001000457c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100045b4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x000000001000458c       0x94 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100045c4       0x94 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_buffered_printer
-                0x0000000010004620       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004658       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x0000000010004684      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100046bc      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .text.__wrap_putchar
-                0x0000000010004784       0xa4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004784                __wrap_putchar
+                0x00000000100047bc       0xa4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100047bc                __wrap_putchar
  .text.__wrap_puts
-                0x0000000010004828       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004828                __wrap_puts
+                0x0000000010004860       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000010004860                __wrap_puts
  .text.stdio_set_driver_enabled
-                0x0000000010004864       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004864                stdio_set_driver_enabled
+                0x000000001000489c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x000000001000489c                stdio_set_driver_enabled
  .text.__wrap_vprintf
-                0x0000000010004894       0xd8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004894                __wrap_vprintf
+                0x00000000100048cc       0xd8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100048cc                __wrap_vprintf
  .text.__wrap_printf
-                0x000000001000496c       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000001000496c                __wrap_printf
+                0x00000000100049a4       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100049a4                __wrap_printf
  .text.stdio_init_all
-                0x0000000010004984        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x0000000010004984                stdio_init_all
+                0x00000000100049bc        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00000000100049bc                stdio_init_all
  .text.stdio_uart_out_chars
-                0x0000000010004990       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000100049c8       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .text.stdio_uart_in_chars
-                0x00000000100049dc       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x00000000100049dc                stdio_uart_in_chars
+                0x0000000010004a14       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004a14                stdio_uart_in_chars
  .text.stdio_uart_init
-                0x0000000010004a14       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-                0x0000000010004a14                stdio_uart_init
+                0x0000000010004a4c       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010004a4c                stdio_uart_init
  .text.resetd_init
-                0x0000000010004a5c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_reset
-                0x0000000010004a60        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_open
-                0x0000000010004a6c       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
- .text.resetd_xfer_cb
                 0x0000000010004a94        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_reset
+                0x0000000010004a98        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_open
+                0x0000000010004aa4       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+ .text.resetd_xfer_cb
+                0x0000000010004acc        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.resetd_control_xfer_cb
-                0x0000000010004a98       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004ad0       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .text.usbd_app_driver_get_cb
-                0x0000000010004afc        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004afc                usbd_app_driver_get_cb
+                0x0000000010004b34        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004b34                usbd_app_driver_get_cb
  .text.tud_cdc_line_coding_cb
-                0x0000000010004b08       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
-                0x0000000010004b08                tud_cdc_line_coding_cb
+                0x0000000010004b40       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010004b40                tud_cdc_line_coding_cb
  .text.stdio_usb_in_chars
-                0x0000000010004b3c       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004b3c                stdio_usb_in_chars
+                0x0000000010004b74       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004b74                stdio_usb_in_chars
  .text.stdio_usb_out_chars
-                0x0000000010004ba4       0xec CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004bdc       0xec CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.timer_task
-                0x0000000010004c90       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .text.usb_irq  0x0000000010004ca8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004cc8       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .text.usb_irq  0x0000000010004ce0       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.low_priority_worker_irq
-                0x0000000010004cb8       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004cf0       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .text.stdio_usb_init
-                0x0000000010004cdc       0xb0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010004cdc                stdio_usb_init
+                0x0000000010004d14       0xb0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010004d14                stdio_usb_init
  .text.tud_descriptor_device_cb
-                0x0000000010004d8c        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d8c                tud_descriptor_device_cb
+                0x0000000010004dc4        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004dc4                tud_descriptor_device_cb
  .text.tud_descriptor_configuration_cb
-                0x0000000010004d94        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d94                tud_descriptor_configuration_cb
+                0x0000000010004dcc        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004dcc                tud_descriptor_configuration_cb
  .text.tud_descriptor_string_cb
-                0x0000000010004d9c       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
-                0x0000000010004d9c                tud_descriptor_string_cb
+                0x0000000010004dd4       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010004dd4                tud_descriptor_string_cb
  .text.dcd_rp2040_irq
-                0x0000000010004e0c      0x21c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010004e44      0x21c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .text.dcd_int_enable
-                0x0000000010005028        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005028                dcd_int_enable
+                0x0000000010005060        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005060                dcd_int_enable
  .text.dcd_set_address
-                0x0000000010005034       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005034                dcd_set_address
+                0x000000001000506c       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x000000001000506c                dcd_set_address
  .text.dcd_connect
-                0x0000000010005048       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005048                dcd_connect
+                0x0000000010005080       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005080                dcd_connect
  .text.dcd_init
-                0x0000000010005058      0x148 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005058                dcd_init
+                0x0000000010005090      0x148 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010005090                dcd_init
  .text.dcd_edpt0_status_complete
-                0x00000000100051a0       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100051a0                dcd_edpt0_status_complete
+                0x00000000100051d8       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100051d8                dcd_edpt0_status_complete
  .text.dcd_edpt_open
-                0x00000000100051bc       0xf0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100051bc                dcd_edpt_open
+                0x00000000100051f4       0xf0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100051f4                dcd_edpt_open
  .text.dcd_edpt_close_all
-                0x00000000100052ac       0xbc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100052ac                dcd_edpt_close_all
+                0x00000000100052e4       0xbc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100052e4                dcd_edpt_close_all
  .text.dcd_edpt_xfer
-                0x0000000010005368       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x0000000010005368                dcd_edpt_xfer
+                0x00000000100053a0       0x24 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100053a0                dcd_edpt_xfer
  .text.dcd_edpt_stall
-                0x000000001000538c       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x000000001000538c                dcd_edpt_stall
+                0x00000000100053c4       0x38 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100053c4                dcd_edpt_stall
  .text.dcd_edpt_clear_stall
-                0x00000000100053c4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
-                0x00000000100053c4                dcd_edpt_clear_stall
+                0x00000000100053fc       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x00000000100053fc                dcd_edpt_clear_stall
  .text._hw_endpoint_buffer_control_update32.part.0
-                0x00000000100053f4       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000542c       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .text.rp2040_usb_init
-                0x0000000010005414       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005414                rp2040_usb_init
+                0x000000001000544c       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000544c                rp2040_usb_init
  .text.hw_endpoint_reset_transfer
-                0x0000000010005460        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x0000000010005460                hw_endpoint_reset_transfer
+                0x0000000010005498        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010005498                hw_endpoint_reset_transfer
  .text._hw_endpoint_buffer_control_update32
-                0x000000001000546c       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x000000001000546c                _hw_endpoint_buffer_control_update32
+                0x00000000100054a4       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100054a4                _hw_endpoint_buffer_control_update32
  .text.hw_endpoint_xfer_start
-                0x00000000100054ac      0x138 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100054ac                hw_endpoint_xfer_start
+                0x00000000100054e4      0x138 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000100054e4                hw_endpoint_xfer_start
  .text.hw_endpoint_xfer_continue
-                0x00000000100055e4      0x1e4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
-                0x00000000100055e4                hw_endpoint_xfer_continue
+                0x000000001000561c      0x1e4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x000000001000561c                hw_endpoint_xfer_continue
  .text.tud_mounted
-                0x00000000100057c8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100057c8                tud_mounted
+                0x0000000010005800       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005800                tud_mounted
  .text.tud_suspended
-                0x00000000100057d8       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100057d8                tud_suspended
+                0x0000000010005810       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005810                tud_suspended
  .text.tud_inited
-                0x00000000100057e8        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100057e8                tud_inited
+                0x0000000010005820        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005820                tud_inited
  .text.tud_init
-                0x00000000100057f4       0xd8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100057f4                tud_init
+                0x000000001000582c       0xd8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000582c                tud_init
  .text.tud_task
-                0x00000000100058cc      0x8ec CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100058cc                tud_task
+                0x0000000010005904      0x8ec CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010005904                tud_task
  .text.dcd_event_bus_signal
-                0x00000000100061b8      0x120 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100061b8                dcd_event_bus_signal
+                0x00000000100061f0      0x120 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100061f0                dcd_event_bus_signal
  .text.dcd_event_bus_reset
-                0x00000000100062d8       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100062d8                dcd_event_bus_reset
+                0x0000000010006310       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006310                dcd_event_bus_reset
  .text.dcd_event_setup_received
-                0x000000001000632c       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000632c                dcd_event_setup_received
+                0x0000000010006364       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006364                dcd_event_setup_received
  .text.dcd_event_xfer_complete
-                0x000000001000637c       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000001000637c                dcd_event_xfer_complete
+                0x00000000100063b4       0x68 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100063b4                dcd_event_xfer_complete
  .text.usbd_open_edpt_pair
-                0x00000000100063e4       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100063e4                usbd_open_edpt_pair
+                0x000000001000641c       0x80 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000641c                usbd_open_edpt_pair
  .text.usbd_edpt_open
-                0x0000000010006464       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006464                usbd_edpt_open
+                0x000000001000649c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000649c                usbd_edpt_open
  .text.usbd_edpt_claim
-                0x0000000010006494       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006494                usbd_edpt_claim
+                0x00000000100064cc       0x64 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000100064cc                usbd_edpt_claim
  .text.usbd_edpt_release
-                0x00000000100064f8       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x00000000100064f8                usbd_edpt_release
+                0x0000000010006530       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010006530                usbd_edpt_release
  .text.usbd_edpt_xfer
-                0x0000000010006544       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010006544                usbd_edpt_xfer
+                0x000000001000657c       0x48 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x000000001000657c                usbd_edpt_xfer
  .text.tud_control_status
-                0x000000001000658c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x000000001000658c                tud_control_status
+                0x00000000100065c4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100065c4                tud_control_status
  .text.tud_control_xfer
-                0x00000000100065bc       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100065bc                tud_control_xfer
+                0x00000000100065f4       0xb8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100065f4                tud_control_xfer
  .text.usbd_control_reset
-                0x0000000010006674       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006674                usbd_control_reset
+                0x00000000100066ac       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100066ac                usbd_control_reset
  .text.usbd_control_set_complete_callback
-                0x0000000010006688        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006688                usbd_control_set_complete_callback
+                0x00000000100066c0        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100066c0                usbd_control_set_complete_callback
  .text.usbd_control_set_request
-                0x0000000010006694       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x0000000010006694                usbd_control_set_request
+                0x00000000100066cc       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100066cc                usbd_control_set_request
  .text.usbd_control_xfer_cb
-                0x00000000100066b0       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
-                0x00000000100066b0                usbd_control_xfer_cb
+                0x00000000100066e8       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000100066e8                usbd_control_xfer_cb
  .text.tud_cdc_n_connected
-                0x00000000100067a8       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100067a8                tud_cdc_n_connected
+                0x00000000100067e0       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100067e0                tud_cdc_n_connected
  .text.tud_cdc_n_available
-                0x00000000100067d8       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100067d8                tud_cdc_n_available
+                0x0000000010006810       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006810                tud_cdc_n_available
  .text.tud_cdc_n_read
-                0x00000000100067f0       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100067f0                tud_cdc_n_read
+                0x0000000010006828       0x70 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006828                tud_cdc_n_read
  .text.tud_cdc_n_write_flush
-                0x0000000010006860       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006860                tud_cdc_n_write_flush
+                0x0000000010006898       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006898                tud_cdc_n_write_flush
  .text.tud_cdc_n_write
-                0x00000000100068d8       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100068d8                tud_cdc_n_write
+                0x0000000010006910       0x34 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006910                tud_cdc_n_write
  .text.tud_cdc_n_write_available
-                0x000000001000690c       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x000000001000690c                tud_cdc_n_write_available
+                0x0000000010006944       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006944                tud_cdc_n_write_available
  .text.cdcd_init
-                0x0000000010006924       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006924                cdcd_init
+                0x000000001000695c       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x000000001000695c                cdcd_init
  .text.cdcd_reset
-                0x00000000100069a0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100069a0                cdcd_reset
+                0x00000000100069d8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000100069d8                cdcd_reset
  .text.cdcd_open
-                0x00000000100069cc       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x00000000100069cc                cdcd_open
+                0x0000000010006a04       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006a04                cdcd_open
  .text.cdcd_control_xfer_cb
-                0x0000000010006ab0       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006ab0                cdcd_control_xfer_cb
+                0x0000000010006ae8       0xe4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006ae8                cdcd_control_xfer_cb
  .text.cdcd_xfer_cb
-                0x0000000010006b94      0x198 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
-                0x0000000010006b94                cdcd_xfer_cb
+                0x0000000010006bcc      0x198 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000010006bcc                cdcd_xfer_cb
  .text.tusb_init
-                0x0000000010006d2c        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006d2c                tusb_init
+                0x0000000010006d64        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006d64                tusb_init
  .text.tusb_inited
-                0x0000000010006d38        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006d38                tusb_inited
+                0x0000000010006d70        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006d70                tusb_inited
  .text.tu_edpt_validate
-                0x0000000010006d40       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006d40                tu_edpt_validate
+                0x0000000010006d78       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006d78                tu_edpt_validate
  .text.tu_edpt_bind_driver
-                0x0000000010006db8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
-                0x0000000010006db8                tu_edpt_bind_driver
+                0x0000000010006df0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000010006df0                tu_edpt_bind_driver
  .text.tu_fifo_config
-                0x0000000010006de4       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006de4                tu_fifo_config
+                0x0000000010006e1c       0x78 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006e1c                tu_fifo_config
  .text.tu_fifo_count
-                0x0000000010006e5c       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006e5c                tu_fifo_count
+                0x0000000010006e94       0x20 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006e94                tu_fifo_count
  .text.tu_fifo_empty
-                0x0000000010006e7c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006e7c                tu_fifo_empty
+                0x0000000010006eb4       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006eb4                tu_fifo_empty
  .text.tu_fifo_remaining
-                0x0000000010006e8c       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006e8c                tu_fifo_remaining
+                0x0000000010006ec4       0x1c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006ec4                tu_fifo_remaining
  .text.tu_fifo_read
-                0x0000000010006ea8       0x9c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006ea8                tu_fifo_read
+                0x0000000010006ee0       0x9c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006ee0                tu_fifo_read
  .text.tu_fifo_read_n
-                0x0000000010006f44      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010006f44                tu_fifo_read_n
+                0x0000000010006f7c      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x0000000010006f7c                tu_fifo_read_n
  .text.tu_fifo_write
-                0x0000000010007044       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007044                tu_fifo_write
+                0x000000001000707c       0x7c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000707c                tu_fifo_write
  .text.tu_fifo_write_n
-                0x00000000100070c0       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100070c0                tu_fifo_write_n
+                0x00000000100070f8       0xf8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100070f8                tu_fifo_write_n
  .text.tu_fifo_clear
-                0x00000000100071b8       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x00000000100071b8                tu_fifo_clear
+                0x00000000100071f0       0x4c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x00000000100071f0                tu_fifo_clear
  .text.tu_fifo_set_overwritable
-                0x0000000010007204       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
-                0x0000000010007204                tu_fifo_set_overwritable
+                0x000000001000723c       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000001000723c                tu_fifo_set_overwritable
  .text.startup._retrieve_unique_id_on_boot
-                0x0000000010007240       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010007278       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.pico_get_unique_board_id_string
-                0x0000000010007250      0x1bc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000010007250                pico_get_unique_board_id_string
+                0x0000000010007288      0x1bc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000010007288                pico_get_unique_board_id_string
  .text.flash_get_unique_id
-                0x000000001000740c       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-                0x000000001000740c                flash_get_unique_id
- .text          0x000000001000744c       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
-                0x000000001000744c                strlen
+                0x0000000010007444       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x0000000010007444                flash_get_unique_id
+ .text          0x0000000010007484       0x68 /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x0000000010007484                strlen
  *(.fini)
- .fini          0x00000000100074b4        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
-                0x00000000100074b4                _fini
- .fini.__stub   0x00000000100074b8       0x70 linker stubs
+ .fini          0x00000000100074ec        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crti.o
+                0x00000000100074ec                _fini
+ .fini.__stub   0x00000000100074f0       0x70 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -2046,360 +2098,361 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
  *(.eh_frame*)
- .eh_frame      0x0000000010007528        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x0000000010007528                . = ALIGN (0x4)
+ .eh_frame      0x0000000010007560        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x0000000010007560                . = ALIGN (0x4)
 
-.glue_7         0x0000000010007528        0x0
- .glue_7        0x0000000010007528        0x0 linker stubs
+.glue_7         0x0000000010007560        0x0
+ .glue_7        0x0000000010007560        0x0 linker stubs
 
-.glue_7t        0x0000000010007528        0x0
- .glue_7t       0x0000000010007528        0x0 linker stubs
+.glue_7t        0x0000000010007560        0x0
+ .glue_7t       0x0000000010007560        0x0 linker stubs
 
-.vfp11_veneer   0x0000000010007528        0x0
- .vfp11_veneer  0x0000000010007528        0x0 linker stubs
+.vfp11_veneer   0x0000000010007560        0x0
+ .vfp11_veneer  0x0000000010007560        0x0 linker stubs
 
-.v4_bx          0x0000000010007528        0x0
- .v4_bx         0x0000000010007528        0x0 linker stubs
+.v4_bx          0x0000000010007560        0x0
+ .v4_bx         0x0000000010007560        0x0 linker stubs
 
-.iplt           0x0000000010007528        0x0
- .iplt          0x0000000010007528        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x0000000010007560        0x0
+ .iplt          0x0000000010007560        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x0000000010007528    0x1c74c
+.rodata         0x0000000010007560    0x1c784
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x0000000010007528       0x17 CMakeFiles/spo256.dir/spo256.c.obj
- *fill*         0x000000001000753f        0x1 
+                0x0000000010007560       0x4a CMakeFiles/spo256.dir/spo256.c.obj
+ *fill*         0x00000000100075aa        0x2 
  .rodata.a00pa1
-                0x0000000010007540       0x3a CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010007540                a00pa1
- *fill*         0x000000001000757a        0x2 
+                0x00000000100075ac       0x3a CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100075ac                a00pa1
+ *fill*         0x00000000100075e6        0x2 
  .rodata.a01pa2
-                0x000000001000757c      0x1ff CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000757c                a01pa2
- *fill*         0x000000001000777b        0x1 
+                0x00000000100075e8      0x1ff CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100075e8                a01pa2
+ *fill*         0x00000000100077e7        0x1 
  .rodata.a02pa3
-                0x000000001000777c      0x1ff CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000777c                a02pa3
- *fill*         0x000000001000797b        0x1 
+                0x00000000100077e8      0x1ff CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100077e8                a02pa3
+ *fill*         0x00000000100079e7        0x1 
  .rodata.a03pa4
-                0x000000001000797c      0x41d CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000797c                a03pa4
- *fill*         0x0000000010007d99        0x3 
+                0x00000000100079e8      0x41d CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100079e8                a03pa4
+ *fill*         0x0000000010007e05        0x3 
  .rodata.a04pa5
-                0x0000000010007d9c      0x880 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010007d9c                a04pa5
- .rodata.a05oy  0x000000001000861c     0x11c5 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000861c                a05oy
- *fill*         0x00000000100097e1        0x3 
- .rodata.a06ay  0x00000000100097e4      0xb2a CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100097e4                a06ay
- *fill*         0x000000001000a30e        0x2 
- .rodata.a07eh  0x000000001000a310      0x2f9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000a310                a07eh
- *fill*         0x000000001000a609        0x3 
+                0x0000000010007e08      0x880 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010007e08                a04pa5
+ .rodata.a05oy  0x0000000010008688     0x11c5 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010008688                a05oy
+ *fill*         0x000000001000984d        0x3 
+ .rodata.a06ay  0x0000000010009850      0xb2a CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010009850                a06ay
+ *fill*         0x000000001000a37a        0x2 
+ .rodata.a07eh  0x000000001000a37c      0x2f9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000a37c                a07eh
+ *fill*         0x000000001000a675        0x3 
  .rodata.a08kk3
-                0x000000001000a60c      0x537 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000a60c                a08kk3
- *fill*         0x000000001000ab43        0x1 
- .rodata.a09pp  0x000000001000ab44      0x215 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000ab44                a09pp
- *fill*         0x000000001000ad59        0x3 
- .rodata.a10jh  0x000000001000ad5c      0x5e9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000ad5c                a10jh
- *fill*         0x000000001000b345        0x3 
+                0x000000001000a678      0x537 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000a678                a08kk3
+ *fill*         0x000000001000abaf        0x1 
+ .rodata.a09pp  0x000000001000abb0      0x215 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000abb0                a09pp
+ *fill*         0x000000001000adc5        0x3 
+ .rodata.a10jh  0x000000001000adc8      0x5e9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000adc8                a10jh
+ *fill*         0x000000001000b3b1        0x3 
  .rodata.a11nn1
-                0x000000001000b348      0x5c1 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000b348                a11nn1
- *fill*         0x000000001000b909        0x3 
- .rodata.a12ih  0x000000001000b90c      0x2ef CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000b90c                a12ih
- *fill*         0x000000001000bbfb        0x1 
+                0x000000001000b3b4      0x5c1 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000b3b4                a11nn1
+ *fill*         0x000000001000b975        0x3 
+ .rodata.a12ih  0x000000001000b978      0x2ef CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000b978                a12ih
+ *fill*         0x000000001000bc67        0x1 
  .rodata.a13tt2
-                0x000000001000bbfc      0x5ba CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000bbfc                a13tt2
- *fill*         0x000000001000c1b6        0x2 
+                0x000000001000bc68      0x5ba CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000bc68                a13tt2
+ *fill*         0x000000001000c222        0x2 
  .rodata.a14rr1
-                0x000000001000c1b8      0x739 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000c1b8                a14rr1
- *fill*         0x000000001000c8f1        0x3 
- .rodata.a15ax  0x000000001000c8f4      0x2e8 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000c8f4                a15ax
- .rodata.a16mm  0x000000001000cbdc      0x7b9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000cbdc                a16mm
- *fill*         0x000000001000d395        0x3 
+                0x000000001000c224      0x739 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000c224                a14rr1
+ *fill*         0x000000001000c95d        0x3 
+ .rodata.a15ax  0x000000001000c960      0x2e8 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000c960                a15ax
+ .rodata.a16mm  0x000000001000cc48      0x7b9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000cc48                a16mm
+ *fill*         0x000000001000d401        0x3 
  .rodata.a17tt1
-                0x000000001000d398      0x437 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000d398                a17tt1
- *fill*         0x000000001000d7cf        0x1 
+                0x000000001000d404      0x437 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000d404                a17tt1
+ *fill*         0x000000001000d83b        0x1 
  .rodata.a18dh1
-                0x000000001000d7d0      0x71a CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000d7d0                a18dh1
- *fill*         0x000000001000deea        0x2 
- .rodata.a19iy  0x000000001000deec      0xaa9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000deec                a19iy
- *fill*         0x000000001000e995        0x3 
- .rodata.a20ey  0x000000001000e998      0xc05 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000e998                a20ey
- *fill*         0x000000001000f59d        0x3 
+                0x000000001000d83c      0x71a CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000d83c                a18dh1
+ *fill*         0x000000001000df56        0x2 
+ .rodata.a19iy  0x000000001000df58      0xaa9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000df58                a19iy
+ *fill*         0x000000001000ea01        0x3 
+ .rodata.a20ey  0x000000001000ea04      0xc05 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000ea04                a20ey
+ *fill*         0x000000001000f609        0x3 
  .rodata.a21dd1
-                0x000000001000f5a0      0x32b CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000f5a0                a21dd1
- *fill*         0x000000001000f8cb        0x1 
+                0x000000001000f60c      0x32b CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000f60c                a21dd1
+ *fill*         0x000000001000f937        0x1 
  .rodata.a22uw1
-                0x000000001000f8cc      0x457 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000f8cc                a22uw1
- *fill*         0x000000001000fd23        0x1 
- .rodata.a23ao  0x000000001000fd24      0x437 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001000fd24                a23ao
- *fill*         0x000000001001015b        0x1 
- .rodata.a24aa  0x000000001001015c      0x44d CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001015c                a24aa
- *fill*         0x00000000100105a9        0x3 
+                0x000000001000f938      0x457 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000f938                a22uw1
+ *fill*         0x000000001000fd8f        0x1 
+ .rodata.a23ao  0x000000001000fd90      0x437 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001000fd90                a23ao
+ *fill*         0x00000000100101c7        0x1 
+ .rodata.a24aa  0x00000000100101c8      0x44d CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100101c8                a24aa
+ *fill*         0x0000000010010615        0x3 
  .rodata.a25yy2
-                0x00000000100105ac      0x7dd CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100105ac                a25yy2
- *fill*         0x0000000010010d89        0x3 
- .rodata.a26ae  0x0000000010010d8c      0x4eb CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010010d8c                a26ae
- *fill*         0x0000000010011277        0x1 
+                0x0000000010010618      0x7dd CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010010618                a25yy2
+ *fill*         0x0000000010010df5        0x3 
+ .rodata.a26ae  0x0000000010010df8      0x4eb CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010010df8                a26ae
+ *fill*         0x00000000100112e3        0x1 
  .rodata.a27hh1
-                0x0000000010011278      0x991 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010011278                a27hh1
- *fill*         0x0000000010011c09        0x3 
+                0x00000000100112e4      0x991 CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100112e4                a27hh1
+ *fill*         0x0000000010011c75        0x3 
  .rodata.a28bb1
-                0x0000000010011c0c      0x37d CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010011c0c                a28bb1
- *fill*         0x0000000010011f89        0x3 
- .rodata.a29th  0x0000000010011f8c      0x7cb CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010011f8c                a29th
- *fill*         0x0000000010012757        0x1 
- .rodata.a30uh  0x0000000010012758      0x44f CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010012758                a30uh
- *fill*         0x0000000010012ba7        0x1 
+                0x0000000010011c78      0x37d CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010011c78                a28bb1
+ *fill*         0x0000000010011ff5        0x3 
+ .rodata.a29th  0x0000000010011ff8      0x7cb CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010011ff8                a29th
+ *fill*         0x00000000100127c3        0x1 
+ .rodata.a30uh  0x00000000100127c4      0x44f CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100127c4                a30uh
+ *fill*         0x0000000010012c13        0x1 
  .rodata.a31uw2
-                0x0000000010012ba8      0xb19 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010012ba8                a31uw2
- *fill*         0x00000000100136c1        0x3 
- .rodata.a32aw  0x00000000100136c4      0xfd5 CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100136c4                a32aw
- *fill*         0x0000000010014699        0x3 
+                0x0000000010012c14      0xb19 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010012c14                a31uw2
+ *fill*         0x000000001001372d        0x3 
+ .rodata.a32aw  0x0000000010013730      0xfd5 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010013730                a32aw
+ *fill*         0x0000000010014705        0x3 
  .rodata.a33dd2
-                0x000000001001469c      0x67a CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001469c                a33dd2
- *fill*         0x0000000010014d16        0x2 
+                0x0000000010014708      0x67a CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010014708                a33dd2
+ *fill*         0x0000000010014d82        0x2 
  .rodata.a34gg3
-                0x0000000010014d18      0x5f6 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010014d18                a34gg3
- *fill*         0x000000001001530e        0x2 
- .rodata.a35vv  0x0000000010015310      0x7e1 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010015310                a35vv
- *fill*         0x0000000010015af1        0x3 
+                0x0000000010014d84      0x5f6 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010014d84                a34gg3
+ *fill*         0x000000001001537a        0x2 
+ .rodata.a35vv  0x000000001001537c      0x7e1 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001537c                a35vv
+ *fill*         0x0000000010015b5d        0x3 
  .rodata.a36gg1
-                0x0000000010015af4      0x323 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010015af4                a36gg1
- *fill*         0x0000000010015e17        0x1 
- .rodata.a37sh  0x0000000010015e18      0x6b1 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010015e18                a37sh
- *fill*         0x00000000100164c9        0x3 
- .rodata.a38zh  0x00000000100164cc      0x835 CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100164cc                a38zh
- *fill*         0x0000000010016d01        0x3 
+                0x0000000010015b60      0x323 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010015b60                a36gg1
+ *fill*         0x0000000010015e83        0x1 
+ .rodata.a37sh  0x0000000010015e84      0x6b1 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010015e84                a37sh
+ *fill*         0x0000000010016535        0x3 
+ .rodata.a38zh  0x0000000010016538      0x835 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010016538                a38zh
+ *fill*         0x0000000010016d6d        0x3 
  .rodata.a39rr2
-                0x0000000010016d04      0x541 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010016d04                a39rr2
- *fill*         0x0000000010017245        0x3 
- .rodata.a40ff  0x0000000010017248      0x606 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010017248                a40ff
- *fill*         0x000000001001784e        0x2 
+                0x0000000010016d70      0x541 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010016d70                a39rr2
+ *fill*         0x00000000100172b1        0x3 
+ .rodata.a40ff  0x00000000100172b4      0x606 CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100172b4                a40ff
+ *fill*         0x00000000100178ba        0x2 
  .rodata.a41kk2
-                0x0000000010017850      0x7ba CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010017850                a41kk2
- *fill*         0x000000001001800a        0x2 
+                0x00000000100178bc      0x7ba CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100178bc                a41kk2
+ *fill*         0x0000000010018076        0x2 
  .rodata.a42kk1
-                0x000000001001800c      0x62c CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001800c                a42kk1
- .rodata.a43zz  0x0000000010018638      0x8d3 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010018638                a43zz
- *fill*         0x0000000010018f0b        0x1 
- .rodata.a44ng  0x0000000010018f0c      0x989 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010018f0c                a44ng
- *fill*         0x0000000010019895        0x3 
- .rodata.a45ll  0x0000000010019898      0x4b9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010019898                a45ll
- *fill*         0x0000000010019d51        0x3 
- .rodata.a46ww  0x0000000010019d54      0x78f CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010019d54                a46ww
- *fill*         0x000000001001a4e3        0x1 
- .rodata.a47xr  0x000000001001a4e4      0xf65 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001a4e4                a47xr
- *fill*         0x000000001001b449        0x3 
- .rodata.a48wh  0x000000001001b44c      0x85d CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001b44c                a48wh
- *fill*         0x000000001001bca9        0x3 
+                0x0000000010018078      0x62c CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010018078                a42kk1
+ .rodata.a43zz  0x00000000100186a4      0x8d3 CMakeFiles/spo256.dir/spo256.c.obj
+                0x00000000100186a4                a43zz
+ *fill*         0x0000000010018f77        0x1 
+ .rodata.a44ng  0x0000000010018f78      0x989 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010018f78                a44ng
+ *fill*         0x0000000010019901        0x3 
+ .rodata.a45ll  0x0000000010019904      0x4b9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010019904                a45ll
+ *fill*         0x0000000010019dbd        0x3 
+ .rodata.a46ww  0x0000000010019dc0      0x78f CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010019dc0                a46ww
+ *fill*         0x000000001001a54f        0x1 
+ .rodata.a47xr  0x000000001001a550      0xf65 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001a550                a47xr
+ *fill*         0x000000001001b4b5        0x3 
+ .rodata.a48wh  0x000000001001b4b8      0x85d CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001b4b8                a48wh
+ *fill*         0x000000001001bd15        0x3 
  .rodata.a49yy1
-                0x000000001001bcac      0x57c CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001bcac                a49yy1
- .rodata.a50ch  0x000000001001c228      0x7cd CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001c228                a50ch
- *fill*         0x000000001001c9f5        0x3 
+                0x000000001001bd18      0x57c CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001bd18                a49yy1
+ .rodata.a50ch  0x000000001001c294      0x7cd CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001c294                a50ch
+ *fill*         0x000000001001ca61        0x3 
  .rodata.a51er1
-                0x000000001001c9f8      0x6b7 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001c9f8                a51er1
- *fill*         0x000000001001d0af        0x1 
+                0x000000001001ca64      0x6b7 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001ca64                a51er1
+ *fill*         0x000000001001d11b        0x1 
  .rodata.a52er2
-                0x000000001001d0b0      0xcda CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001d0b0                a52er2
- *fill*         0x000000001001dd8a        0x2 
- .rodata.a53ow  0x000000001001dd8c      0xa00 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001dd8c                a53ow
+                0x000000001001d11c      0xcda CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001d11c                a52er2
+ *fill*         0x000000001001ddf6        0x2 
+ .rodata.a53ow  0x000000001001ddf8      0xa00 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001ddf8                a53ow
  .rodata.a54dh2
-                0x000000001001e78c      0xa33 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001e78c                a54dh2
- *fill*         0x000000001001f1bf        0x1 
- .rodata.a55ss  0x000000001001f1c0      0x3ad CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001f1c0                a55ss
- *fill*         0x000000001001f56d        0x3 
+                0x000000001001e7f8      0xa33 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001e7f8                a54dh2
+ *fill*         0x000000001001f22b        0x1 
+ .rodata.a55ss  0x000000001001f22c      0x3ad CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001f22c                a55ss
+ *fill*         0x000000001001f5d9        0x3 
  .rodata.a56nn2
-                0x000000001001f570      0x840 CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001f570                a56nn2
+                0x000000001001f5dc      0x840 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001f5dc                a56nn2
  .rodata.a57hh2
-                0x000000001001fdb0      0x34e CMakeFiles/spo256.dir/spo256.c.obj
-                0x000000001001fdb0                a57hh2
- *fill*         0x00000000100200fe        0x2 
- .rodata.a58or  0x0000000010020100      0xe1d CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010020100                a58or
- *fill*         0x0000000010020f1d        0x3 
- .rodata.a59ar  0x0000000010020f20      0xc33 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010020f20                a59ar
- *fill*         0x0000000010021b53        0x1 
- .rodata.a60yr  0x0000000010021b54      0xed4 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010021b54                a60yr
+                0x000000001001fe1c      0x34e CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001001fe1c                a57hh2
+ *fill*         0x000000001002016a        0x2 
+ .rodata.a58or  0x000000001002016c      0xe1d CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000001002016c                a58or
+ *fill*         0x0000000010020f89        0x3 
+ .rodata.a59ar  0x0000000010020f8c      0xc33 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010020f8c                a59ar
+ *fill*         0x0000000010021bbf        0x1 
+ .rodata.a60yr  0x0000000010021bc0      0xed4 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010021bc0                a60yr
  .rodata.a61gg2
-                0x0000000010022a28      0x1a4 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010022a28                a61gg2
- .rodata.a62el  0x0000000010022bcc      0x7f9 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010022bcc                a62el
- *fill*         0x00000000100233c5        0x3 
+                0x0000000010022a94      0x1a4 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010022a94                a61gg2
+ .rodata.a62el  0x0000000010022c38      0x7f9 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010022c38                a62el
+ *fill*         0x0000000010023431        0x3 
  .rodata.a63bb2
-                0x00000000100233c8      0x25a CMakeFiles/spo256.dir/spo256.c.obj
-                0x00000000100233c8                a63bb2
- *fill*         0x0000000010023622        0x2 
+                0x0000000010023434      0x25a CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010023434                a63bb2
+ *fill*         0x000000001002368e        0x2 
  .rodata.allophonesizeCorrected
-                0x0000000010023624      0x100 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000010023624                allophonesizeCorrected
+                0x0000000010023690      0x100 CMakeFiles/spo256.dir/spo256.c.obj
+                0x0000000010023690                allophonesizeCorrected
  .rodata.spin_lock_claim_unused.str1.4
-                0x0000000010023724       0x1b CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
- *fill*         0x000000001002373f        0x1 
+                0x0000000010023790       0x1b CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+ *fill*         0x00000000100237ab        0x1 
  .rodata.user_irq_claim_unused.str1.4
-                0x0000000010023740       0x1b CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- *fill*         0x000000001002375b        0x1 
+                0x00000000100237ac       0x1b CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ *fill*         0x00000000100237c7        0x1 
  .rodata.hardware_alarm_claim.str1.4
-                0x000000001002375c       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
- *fill*         0x000000001002377e        0x2 
+                0x00000000100237c8       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+ *fill*         0x00000000100237ea        0x2 
  .rodata.panic.str1.4
-                0x0000000010023780       0x12 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
- *fill*         0x0000000010023792        0x2 
+                0x00000000100237ec       0x12 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+ *fill*         0x00000000100237fe        0x2 
  .rodata.hard_assertion_failure.str1.4
-                0x0000000010023794        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000000010023800        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata._ftoa.str1.4
-                0x00000000100237a0       0x15 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x00000000100237b5        0x3 
+                0x000000001002380c       0x15 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010023821        0x3 
  .rodata._vsnprintf
-                0x00000000100237b8      0x1e0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010023824      0x1e0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x0000000010023a04        0x4 
  .rodata.pow10.5444
-                0x0000000010023998       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000010023a08       0x50 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .rodata.str1.4
-                0x00000000100239e8       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023a58       0x3c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_44
-                0x0000000010023a24        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023a94        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_75
-                0x0000000010023a30        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023aa0        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.__bi_81
-                0x0000000010023a3c        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023aac        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .rodata.crlf_str.6065
-                0x0000000010023a48        0x2 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- *fill*         0x0000000010023a4a        0x2 
+                0x0000000010023ab8        0x2 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ *fill*         0x0000000010023aba        0x2 
  .rodata.str1.4
-                0x0000000010023a4c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010023abc       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_28.4859
-                0x0000000010023a78        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010023ae8        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata.__bi_29.4863
-                0x0000000010023a84        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010023af4        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .rodata._resetd_driver
-                0x0000000010023a8c       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000010023afc       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .rodata.str1.4
-                0x0000000010023aa4       0x13 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- *fill*         0x0000000010023ab7        0x1 
+                0x0000000010023b14       0x13 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ *fill*         0x0000000010023b27        0x1 
  .rodata.__bi_118.7207
-                0x0000000010023ab8        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010023b28        0xc CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .rodata.str1.4
-                0x0000000010023ac4       0x2a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010023aee        0x2 
+                0x0000000010023b34       0x2a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010023b5e        0x2 
  .rodata.usbd_desc_cfg
-                0x0000000010023af0       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010023b60       0x54 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.usbd_desc_device
-                0x0000000010023b44       0x12 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000010023b56        0x2 
+                0x0000000010023bb4       0x12 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x0000000010023bc6        0x2 
  .rodata.usbd_desc_str
-                0x0000000010023b58       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000010023bc8       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .rodata.dcd_rp2040_irq.str1.4
-                0x0000000010023b70       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000010023be0       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .rodata._hw_endpoint_buffer_control_update32.part.0.str1.4
-                0x0000000010023b84       0x1f CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
- *fill*         0x0000000010023ba3        0x1 
+                0x0000000010023bf4       0x1f CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+ *fill*         0x0000000010023c13        0x1 
  .rodata.hw_endpoint_xfer_continue.str1.4
-                0x0000000010023ba4       0x29 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010023c14       0x29 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .rodata.str1.4
-                0x0000000010023bcd       0x29 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x0000000010023c3d       0x29 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
                                           0x7 (size before relaxing)
- *fill*         0x0000000010023bcd        0x3 
+ *fill*         0x0000000010023c3d        0x3 
  .rodata.tud_task
-                0x0000000010023bd0       0x8c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010023c40       0x8c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .rodata._usbd_driver
-                0x0000000010023c5c       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x0000000010023c74                . = ALIGN (0x4)
+                0x0000000010023ccc       0x18 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000010023ce4                . = ALIGN (0x4)
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x0000000010023c74                . = ALIGN (0x4)
+                0x0000000010023ce4                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000010023c74        0x0
- .rel.iplt      0x0000000010023c74        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.rel.dyn        0x0000000010023ce4        0x0
+ .rel.iplt      0x0000000010023ce4        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0000000010023c74                __exidx_start = .
+                0x0000000010023ce4                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x0000000010023c74                __exidx_end = .
-                0x0000000010023c74                . = ALIGN (0x4)
-                0x0000000010023c74                __binary_info_start = .
+                0x0000000010023ce4                __exidx_end = .
+                0x0000000010023ce4                . = ALIGN (0x4)
+                0x0000000010023ce4                __binary_info_start = .
 
-.binary_info    0x0000000010023c74       0x28
+.binary_info    0x0000000010023ce4       0x28
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr22
-                0x0000000010023c74        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023ce4        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr30
-                0x0000000010023c78        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023ce8        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr38
-                0x0000000010023c7c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023cec        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr44
-                0x0000000010023c80        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023cf0        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr50
-                0x0000000010023c84        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023cf4        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr75
-                0x0000000010023c88        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023cf8        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .binary_info.keep.__bi_ptr81
-                0x0000000010023c8c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000010023cfc        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  *(.binary_info.*)
  .binary_info.__bi_ptr28
-                0x0000000010023c90        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010023d00        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr29
-                0x0000000010023c94        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000010023d04        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr118
-                0x0000000010023c98        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
-                0x0000000010023c9c                __binary_info_end = .
-                0x0000000010023c9c                . = ALIGN (0x4)
-                0x0000000010023c9c                __etext = .
+                0x0000000010023d08        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000010023d0c                __binary_info_end = .
+                0x0000000010023d0c                . = ALIGN (0x4)
+                0x0000000010023d0c                __etext = .
 
 .ram_vector_table
                 0x0000000020000000       0xc0
@@ -2408,7 +2461,7 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000000       0xc0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
                 0x0000000020000000                ram_vector_table
 
-.data           0x00000000200000c0      0x4d4 load address 0x0000000010023c9c
+.data           0x00000000200000c0      0x4dc load address 0x0000000010023d0c
                 0x00000000200000c0                __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -2483,168 +2536,169 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
                 0x0000000020000574                PROVIDE (__mutex_array_start = .)
  *(SORT_BY_NAME(.mutex_array.*))
  *(.mutex_array)
- .mutex_array   0x0000000020000574        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-                0x000000002000057c                PROVIDE (__mutex_array_end = .)
-                0x000000002000057c                . = ALIGN (0x4)
-                0x000000002000057c                PROVIDE (__preinit_array_start = .)
+ .mutex_array   0x0000000020000574        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+ .mutex_array   0x000000002000057c        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020000584                PROVIDE (__mutex_array_end = .)
+                0x0000000020000584                . = ALIGN (0x4)
+                0x0000000020000584                PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00001
-                0x000000002000057c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000020000584        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00010
-                0x0000000020000580        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x0000000020000588        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020000584        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+                0x000000002000058c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
  .preinit_array.00020
-                0x0000000020000588        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+                0x0000000020000590        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
  *(.preinit_array)
-                0x000000002000058c                PROVIDE (__preinit_array_end = .)
-                0x000000002000058c                . = ALIGN (0x4)
-                0x000000002000058c                PROVIDE (__init_array_start = .)
+                0x0000000020000594                PROVIDE (__preinit_array_end = .)
+                0x0000000020000594                . = ALIGN (0x4)
+                0x0000000020000594                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x000000002000058c        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x0000000020000590        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x0000000020000594                PROVIDE (__init_array_end = .)
-                0x0000000020000594                . = ALIGN (0x4)
-                0x0000000020000594                PROVIDE (__fini_array_start = .)
+ .init_array    0x0000000020000594        0x4 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x0000000020000598        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x000000002000059c                PROVIDE (__init_array_end = .)
+                0x000000002000059c                . = ALIGN (0x4)
+                0x000000002000059c                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
-                0x0000000020000594                PROVIDE (__fini_array_end = .)
+                0x000000002000059c                PROVIDE (__fini_array_end = .)
  *(.jcr)
-                0x0000000020000594                . = ALIGN (0x4)
-                0x0000000020000594                __data_end__ = .
+                0x000000002000059c                . = ALIGN (0x4)
+                0x000000002000059c                __data_end__ = .
 
 .tm_clone_table
-                0x0000000020000594        0x0 load address 0x0000000010024170
+                0x000000002000059c        0x0 load address 0x00000000100241e8
  .tm_clone_table
-                0x0000000020000594        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x000000002000059c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
-                0x0000000020000594        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
+                0x000000002000059c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x0000000020000594        0x0 load address 0x0000000010024170
- .igot.plt      0x0000000020000594        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+.igot.plt       0x000000002000059c        0x0 load address 0x00000000100241e8
+ .igot.plt      0x000000002000059c        0x0 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
 
 .uninitialized_data
-                0x0000000020000594        0x0 load address 0x0000000010024170
-                0x0000000020000594                . = ALIGN (0x4)
+                0x000000002000059c        0x0 load address 0x00000000100241e8
+                0x000000002000059c                . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.scratch_x      0x0000000020040000        0x0 load address 0x0000000010024170
+.scratch_x      0x0000000020040000        0x0 load address 0x00000000100241e8
                 0x0000000020040000                __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x0000000020040000                . = ALIGN (0x4)
                 0x0000000020040000                __scratch_x_end__ = .
-                0x0000000010024170                __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x00000000100241e8                __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x0000000020041000        0x0 load address 0x0000000010024170
+.scratch_y      0x0000000020041000        0x0 load address 0x00000000100241e8
                 0x0000000020041000                __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x0000000020041000                . = ALIGN (0x4)
                 0x0000000020041000                __scratch_y_end__ = .
-                0x0000000010024170                __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x00000000100241e8                __scratch_y_source__ = LOADADDR (.scratch_y)
 
-.bss            0x0000000020000598      0xd94
-                0x0000000020000598                . = ALIGN (0x4)
-                0x0000000020000598                __bss_start__ = .
+.bss            0x00000000200005a0      0xd94
+                0x00000000200005a0                . = ALIGN (0x4)
+                0x00000000200005a0                __bss_start__ = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
  .bss.default_alarm_pool_entries
-                0x0000000020000598      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x00000000200005a0      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.last_avail_time.7186
-                0x0000000020000698        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
- .bss           0x00000000200006a0       0x1c /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x00000000200006a0        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+ .bss           0x00000000200006a8       0x1c /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
  .bss._app_driver
-                0x00000000200006bc        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200006c4        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._cdcd_itf
-                0x00000000200006c0      0x2d8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x00000000200006c8      0x2d8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .bss._ctrl_xfer
-                0x0000000020000998       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000200009a0       0x14 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._ubsd_mutexdef
-                0x00000000200009ac        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000200009b4        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_ctrl_buf
-                0x00000000200009b4       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000200009bc       0x40 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .bss._usbd_dev
-                0x00000000200009f4       0x53 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- *fill*         0x0000000020000a47        0x1 
+                0x00000000200009fc       0x53 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ *fill*         0x0000000020000a4f        0x1 
  .bss._usbd_mutex
-                0x0000000020000a48        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
- .bss._usbd_q   0x0000000020000a4c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020000a50        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+ .bss._usbd_q   0x0000000020000a54        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss.alarm_callbacks
-                0x0000000020000a50       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020000a58       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.boot2_copyout
-                0x0000000020000a60      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x0000000020000b60        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+                0x0000000020000a68      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020000b68        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
  .bss.configured_freq
-                0x0000000020000b64       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x0000000020000b6c       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
  .bss.default_alarm_pool_entry_ids_high
-                0x0000000020000b8c       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020000b94       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.default_alarm_pool_heap_nodes
-                0x0000000020000b9c       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x0000000020000ba4       0x30 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.desc_str.7071
-                0x0000000020000bcc       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- .bss.drivers   0x0000000020000bf4        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
- .bss.filter    0x0000000020000bf8        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000020000bd4       0x28 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ .bss.drivers   0x0000000020000bfc        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+ .bss.filter    0x0000000020000c00        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .bss.hw_endpoints
-                0x0000000020000bfc      0x400 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000020000c04      0x400 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .bss.lazy_vsnprintf
-                0x0000000020000ffc        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+                0x0000000020001004        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
  .bss.load_value
-                0x0000000020001000        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+                0x0000000020001008        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
  .bss.next_buffer_ptr
-                0x0000000020001004        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
- .bss.pools     0x0000000020001008       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000100c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+ .bss.pools     0x0000000020001010       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.retrieved_id
-                0x0000000020001018        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x0000000020001020        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .bss.sf_clz_func
-                0x0000000020001020        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x0000000020001020                sf_clz_func
+                0x0000000020001028        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020001028                sf_clz_func
  .bss.sleep_notifier
-                0x0000000020001024        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
+                0x000000002000102c        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/time.c.obj
  .bss.stdio_usb_mutex
-                0x0000000020001028        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020001030        0x8 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.target_hi
-                0x0000000020001030       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001038       0x10 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.uart_instance
-                0x0000000020001040        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x0000000020001048        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .bss.usbd_serial_str
-                0x0000000020001044       0x11 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
- *fill*         0x0000000020001055        0x3 
+                0x000000002000104c       0x11 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+ *fill*         0x000000002000105d        0x3 
  .bss.user_irq_claimed
-                0x0000000020001058        0x2 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+                0x0000000020001060        0x2 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
  .bss._app_driver_count
-                0x000000002000105a        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001062        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss._usbd_initialized
-                0x000000002000105b        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001063        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .bss.boot2_copyout_valid
-                0x000000002000105c        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
- .bss.claimed   0x000000002000105d        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001064        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+ .bss.claimed   0x0000000020001065        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  .bss.irq_hander_chain_free_slot_head
-                0x000000002000105e        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
- .bss.itf_num   0x000000002000105f        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x0000000020001066        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+ .bss.itf_num   0x0000000020001067        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .bss.low_priority_irq_num
-                0x0000000020001060        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x0000000020001068        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .bss.timer_callbacks_pending
-                0x0000000020001061        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+                0x0000000020001069        0x1 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
  *(COMMON)
- *fill*         0x0000000020001062        0x2 
- COMMON         0x0000000020001064        0x4 CMakeFiles/spo256.dir/spo256.c.obj
-                0x0000000020001064                PWMslice
- COMMON         0x0000000020001068        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-                0x0000000020001068                uart_char_to_line_feed
- COMMON         0x000000002000106c      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-                0x000000002000106c                sd_table
- COMMON         0x000000002000116c      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-                0x000000002000116c                sf_table
- COMMON         0x000000002000126c       0xc0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
-                0x000000002000126c                _usbd_qdef_buf
-                0x000000002000132c                . = ALIGN (0x4)
-                0x000000002000132c                __bss_end__ = .
+ *fill*         0x000000002000106a        0x2 
+ COMMON         0x000000002000106c        0x4 CMakeFiles/spo256.dir/spo256.c.obj
+                0x000000002000106c                PWMslice
+ COMMON         0x0000000020001070        0x4 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+                0x0000000020001070                uart_char_to_line_feed
+ COMMON         0x0000000020001074      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+                0x0000000020001074                sd_table
+ COMMON         0x0000000020001174      0x100 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+                0x0000000020001174                sf_table
+ COMMON         0x0000000020001274       0xc0 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x0000000020001274                _usbd_qdef_buf
+                0x0000000020001334                . = ALIGN (0x4)
+                0x0000000020001334                __bss_end__ = .
 
-.heap           0x000000002000132c      0x800
-                0x000000002000132c                __end__ = .
-                0x000000002000132c                end = __end__
+.heap           0x0000000020001334      0x800
+                0x0000000020001334                __end__ = .
+                0x0000000020001334                end = __end__
  *(.heap*)
- .heap          0x000000002000132c      0x800 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-                0x0000000020001b2c                __HeapLimit = .
+ .heap          0x0000000020001334      0x800 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x0000000020001b34                __HeapLimit = .
 
 .stack1_dummy   0x0000000020040000        0x0
  *(.stack1*)
@@ -2653,8 +2707,8 @@ LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp
  *(.stack*)
  .stack         0x0000000020041000      0x800 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-.flash_end      0x0000000010024170        0x0
-                0x0000000010024170                __flash_binary_end = .
+.flash_end      0x00000000100241e8        0x0
+                0x00000000100241e8                __flash_binary_end = .
                 0x0000000020040000                __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x0000000020041000                __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x0000000020042000                __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -2733,7 +2787,8 @@ LOAD CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/c
 LOAD CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 LOAD CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 LOAD CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
-LOAD /tmp/ccKVj3KY.o
+LOAD CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj
+LOAD /tmp/ccM5YKr3.o
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2817,47 +2872,49 @@ LOAD linker stubs
  .ARM.attributes
                 0x0000000000000500       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
  .ARM.attributes
-                0x0000000000000522       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x0000000000000522       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .ARM.attributes
-                0x0000000000000544       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+                0x000000000000054e       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .ARM.attributes
-                0x0000000000000566       0x32 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+                0x0000000000000570       0x22 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
  .ARM.attributes
-                0x0000000000000598       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+                0x0000000000000592       0x32 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .ARM.attributes
-                0x00000000000005c4       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+                0x00000000000005c4       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .ARM.attributes
-                0x00000000000005f0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+                0x00000000000005f0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x000000000000061c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+                0x000000000000061c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
  .ARM.attributes
-                0x0000000000000648       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+                0x0000000000000648       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
  .ARM.attributes
-                0x0000000000000674       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+                0x0000000000000674       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
  .ARM.attributes
-                0x00000000000006a0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+                0x00000000000006a0       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
  .ARM.attributes
-                0x00000000000006cc       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+                0x00000000000006cc       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
  .ARM.attributes
-                0x00000000000006f8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+                0x00000000000006f8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
  .ARM.attributes
-                0x0000000000000724       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+                0x0000000000000724       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
  .ARM.attributes
-                0x0000000000000750       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+                0x0000000000000750       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
  .ARM.attributes
-                0x000000000000077c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+                0x000000000000077c       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
  .ARM.attributes
-                0x00000000000007a8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00000000000007a8       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
  .ARM.attributes
-                0x00000000000007d4       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+                0x00000000000007d4       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
  .ARM.attributes
-                0x0000000000000800       0x22 /tmp/ccKVj3KY.o
+                0x0000000000000800       0x2c CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
  .ARM.attributes
-                0x0000000000000822       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
+                0x000000000000082c       0x22 /tmp/ccM5YKr3.o
  .ARM.attributes
-                0x0000000000000840       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+                0x000000000000084e       0x1e /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes
-                0x000000000000086c       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
+                0x000000000000086c       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/../../../arm-none-eabi/lib/thumb/v6-m/nofp/libc.a(lib_a-strlen-stub.o)
+ .ARM.attributes
+                0x0000000000000898       0x2c /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtend.o
 
 .comment        0x0000000000000000       0xa7
  .comment       0x0000000000000000       0x59 /usr/lib/gcc/arm-none-eabi/9.2.1/thumb/v6-m/nofp/crtbegin.o
@@ -2884,6 +2941,7 @@ LOAD linker stubs
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+ .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
  .comment       0x0000000000000059       0x5a CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj

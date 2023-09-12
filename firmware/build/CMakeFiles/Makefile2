@@ -1409,12 +1409,12 @@ CMakeFiles/spo256.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/spo256.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/spo256.dir/build.make CMakeFiles/spo256.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tree/projects/github/pico-sp0256/firmware/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94 "Built target spo256"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/tree/projects/github/pico-sp0256/firmware/build/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95 "Built target spo256"
 .PHONY : CMakeFiles/spo256.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/spo256.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/pico-sp0256/firmware/build/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/pico-sp0256/firmware/build/CMakeFiles 84
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/spo256.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /tree/projects/github/pico-sp0256/firmware/build/CMakeFiles 0
 .PHONY : CMakeFiles/spo256.dir/rule

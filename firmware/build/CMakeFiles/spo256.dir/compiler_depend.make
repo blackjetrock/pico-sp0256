@@ -74,6 +74,13 @@ CMakeFiles/spo256.dir/spo256.c.obj: ../spo256.c \
   /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
   /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
   /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
   ../allophones.c \
   ../allophoneDefs.h
 
@@ -2120,7 +2127,63 @@ CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_ma
   /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
   /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
   /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
-  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h
+
+CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/assert.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h \
+  /usr/include/newlib/assert.h \
+  /usr/include/newlib/_ansi.h \
+  /usr/include/newlib/newlib.h \
+  /usr/include/newlib/_newlib_version.h \
+  /usr/include/newlib/sys/config.h \
+  /usr/include/newlib/machine/ieeefp.h \
+  /usr/include/newlib/sys/features.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdint.h \
+  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/types.h \
+  generated/pico_base/pico/version.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/config.h \
+  generated/pico_base/pico/config_autogen.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/boards/include/boards/pico.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/include/pico/platform.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /usr/include/newlib/sys/cdefs.h \
+  /usr/include/newlib/machine/_default_types.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico/error.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/psm.h \
+  /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/include/hardware/claim.h
 
 CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_platform/platform.c \
   /tree/downloaded_tools/pico/pico-sdk/src/common/pico_base/include/pico.h \
@@ -2907,8 +2970,6 @@ CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_un
 
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/datetime.c:
 
-/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
-
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_time/include/pico/timeout_helper.h:
 
 /usr/include/newlib/sys/_intsup.h:
@@ -2926,6 +2987,10 @@ CMakeFiles/spo256.dir/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_un
 /tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c:
 
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/lock_core.c:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
+
+/usr/include/newlib/alloca.h:
 
 /tree/downloaded_tools/pico/pico-sdk/src/common/pico_util/queue.c:
 
@@ -3151,6 +3216,26 @@ generated/pico_base/pico/version.h:
 
 /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c:
 
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/multicore.c:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/sync.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
+
+/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
+
 ../allophoneDefs.h:
 
 /usr/include/newlib/machine/_types.h:
@@ -3205,20 +3290,6 @@ generated/pico_base/pico/version.h:
 
 /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c:
 
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/pico_bootrom/include/pico/bootrom.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c:
-
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/watchdog.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
-
 /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.h:
 
 /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c:
@@ -3248,7 +3319,3 @@ generated/pico_base/pico/version.h:
 /tree/downloaded_tools/pico/pico-sdk/lib/tinyusb/src/device/usbd_pvt.h:
 
 /usr/include/newlib/stdlib.h:
-
-/tree/downloaded_tools/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
-
-/usr/include/newlib/alloca.h:
