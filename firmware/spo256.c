@@ -55,7 +55,13 @@ void PlayAllophone(int al)
       //printf("\n%d", v);
       
       pwm_set_both_levels(PWMslice,v,v);
-      sleep_us(rate);
+      volatile int x;
+
+      for(x=0; x<125*9; x++)
+	{
+	}
+      
+      //sleep_us(rate);
       //sleep_ms(2);
     }
 
@@ -134,8 +140,49 @@ void core1_main(void)
 {
   uint8_t alist[] ={AR,PA5,PP,EH,IY,PA5,TT2,WH,EH,EH,NN1,PA2,PA3,TT2,IY,PA5,FF,OR,PA3,TT2,IY,PA5};
 
-  printf("\nCore1 started");
-  
+  //  printf("\nCore1 started");
+
+  int last_ald = gpio_get(PIN_SP_ALD);
+  int ald;
+
+  //  irq_set_mask_enabled(0xffffffff, false);
+
+      
+  while(0)
+    {
+      printf("\nPlaying %d", sizeof(alist));
+      
+      PlayAllophones(alist,sizeof(alist));
+
+
+    }
+
+  while(1)
+    {
+      // Sit in loop waiting for allophone selection
+      ald = gpio_get(PIN_SP_ALD);
+
+      if( (ald == 0) && (last_ald == 1) )
+	{
+	  //	  printf("\nNeg edge");
+
+	  // When we get a neg edge we lath the address lines in
+	  int gpio_states = (sio_hw->gpio_in) & 0x3F;
+
+	  //printf("\nAllophone %d", gpio_states);
+
+	  gpio_put(PIN_SP_LRQ_N, 1);
+	  gpio_put(PIN_SP_SBY, 0);
+
+	  PlayAllophone(gpio_states);
+	  
+	  gpio_put(PIN_SP_LRQ_N, 0);
+	  gpio_put(PIN_SP_SBY, 1);
+	}
+
+      last_ald = ald;
+    }
+
   while(1)
     {
       printf("\nPlaying %d", sizeof(alist));
@@ -147,15 +194,52 @@ void core1_main(void)
     }
 }
 
+void set_gpio_input(int gpio)
+{
+  gpio_init(gpio);
+  gpio_set_dir(gpio, GPIO_IN);
+}
 
 int main()
 {
+  ////////////////////////////////////////////////////////////////////////////////
+  //
+  // Overclock as needed
+  //
+  ////////////////////////////////////////////////////////////////////////////////
+#if 0  
+  #define OVERCLOCK 135000
+  //#define OVERCLOCK 200000
+  //#define OVERCLOCK 270000
+  //#define OVERCLOCK 360000
+  
+#if OVERCLOCK > 270000
+  /* Above this speed needs increased voltage */
+  vreg_set_voltage(VREG_VOLTAGE_1_20);
+  sleep_ms(1000);
+#endif
+
+  
+  /* Overclock */
+  set_sys_clock_khz( OVERCLOCK, 1 );
+#endif
+  
   stdio_init_all();
   //  sleep_ms(2000);
 
   printf("\n*********************");
   printf("\n*  SP0256 Emulator  *");
   printf("\n*********************");
+  
+  set_gpio_input(PIN_SP_A1);
+  set_gpio_input(PIN_SP_A2);
+  set_gpio_input(PIN_SP_A3);
+  set_gpio_input(PIN_SP_A4);
+  set_gpio_input(PIN_SP_A5);
+  set_gpio_input(PIN_SP_A6);
+  set_gpio_input(PIN_SP_A7);
+  set_gpio_input(PIN_SP_A8);
+  
   
   gpio_init(PIN_SP_LRQ_N);
   gpio_set_dir(PIN_SP_LRQ_N, GPIO_OUT);
@@ -168,35 +252,25 @@ int main()
   SetPWM();
   //test_gpios2();
   
-  //uint8_t alist[] ={HH,EH,LL,AX,OW,PA5,WW,OR,LL,DD1};
+  uint8_t alist[] ={HH,EH,LL,AX,OW,PA5,WW,OR,LL,DD1};
 
-  //multicore_launch_core1(core1_main);
-
-  int last_ald = gpio_get(PIN_SP_ALD);
-  int ald;
-  
+#if 1
+  multicore_launch_core1(core1_main);
+#else
+    
   while(1)
     {
-      // Sit in loop waiting for allophone selection
-      ald = gpio_get(PIN_SP_ALD);
+      printf("\nPlaying %d", sizeof(alist));
+      
+      PlayAllophones(alist,sizeof(alist));
 
-      if( (ald == 0) && (last_ald == 1) )
-	{
-	  printf("\nNeg edge");
+      sleep_ms(3000);
 
-	  // When we get a neg edge we lath the address lines in
-	  int gpio_states = (sio_hw->gpio_in) & 0xFF;
-
-	  printf("\nAllophone %d", gpio_states);
-
-	  gpio_put(PIN_SP_LRQ_N, 1);
-	  gpio_put(PIN_SP_SBY, 0);
-	  PlayAllophone(gpio_states);
-	  gpio_put(PIN_SP_LRQ_N, 0);
-	  gpio_put(PIN_SP_SBY, 1);
-	}
-
-      last_ald = ald;
+    }
+  
+#endif
+  while(1)
+    {
     }
   
 }
