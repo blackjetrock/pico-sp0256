@@ -14,3 +14,12 @@ This version of the code and PCB is designed to replace an SP0256-AL2 based psio
 It should be treated as a work in progress.
 
    
+This project builds on the work of two other projects the first is here:
+
+https://github.com/ExtremeElectronics/SP0256-AL2-Pico-Emulation-Detail
+
+and contains code that drives the PWM to generate the audio from the phoneme data which is at this project:
+
+https://www.cpcwiki.eu/index.php/SP0256_Allophones
+
+These two projects have been combined and then added to in order to do the emulation of the SP0256 IC itself, such that it can be placed into the footprint of one of those ICs.
